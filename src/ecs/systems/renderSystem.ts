@@ -1,0 +1,73 @@
+import { Container, Graphics } from 'pixi.js';
+import { System } from '../base/system';
+import { Health } from '../components/health';
+import { World } from '../world';
+import { Bullet } from '../components/bullet';
+import { Position } from '../components/position';
+
+export class RenderSystem extends System {
+    private sprites: Map<number, Container> = new Map();
+
+    constructor(private world: World, private stage: Container) {
+        super();
+    }
+
+    update(delta: number): void {
+        for (const entity of this.world.entities) {
+            let container = this.sprites.get(entity.id);
+
+            if (!container) {
+                // Create container for sprite + HP bar
+                container = new Container();
+
+                const graphic = new Graphics();
+                if (entity.getComponent(Bullet)) {
+                    graphic.circle(0, 0, 4);
+                    graphic.fill(0xff0000); // Red for bullets
+                } else {
+                    graphic.circle(0, 0, 10);
+                    graphic.fill(0xffffff); // White for bots
+                }
+                container.addChild(graphic);
+
+                // Add HP bar only if entity has health
+                if (entity.getComponent(Health)) {
+                    const hpBar = new Graphics();
+                    hpBar.y = -15; // Position above the bot
+                    container.addChild(hpBar);
+                    container['hpBar'] = hpBar; // Custom property
+                }
+
+                this.stage.addChild(container);
+                this.sprites.set(entity.id, container);
+            }
+
+            // Update position
+            const pos = entity.getComponent(Position);
+            if (pos) {
+                container.x = pos.x;
+                container.y = pos.y;
+            }
+
+            // Update HP bar if exists
+            const health = entity.getComponent(Health);
+            if (health && container['hpBar']) {
+                const hpBar = container['hpBar'] as Graphics;
+                hpBar.clear();
+                hpBar.rect(-15, 0, 30, 4); // Background (red)
+                hpBar.fill(0xff0000);
+                const healthWidth = (health.current / health.max) * 30;
+                hpBar.rect(-15, 0, healthWidth, 4); // Current health (green)
+                hpBar.fill(0x00ff00);
+            }
+        }
+
+        // Clean up dead entities
+        for (const [id, container] of this.sprites.entries()) {
+            if (!this.world.entities.some(e => e.id === id)) {
+                this.stage.removeChild(container);
+                this.sprites.delete(id);
+            }
+        }
+    }
+}
