@@ -1,7 +1,11 @@
-import { Entity } from './base/entity';
-import { System } from './base/system';
+import { Entity } from './entity';
+import { System } from './system';
 
 export class World {
+    
+    constructor(public width: number,public height: number) {
+    }
+
     entities: Entity[] = [];
     systems: System[] = [];
 
