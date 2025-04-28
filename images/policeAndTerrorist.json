@@ -1,0 +1,2210 @@
+{"frames": {
+
+"police/1/attack/1_police_attack_Attack_000_000.png":
+{
+	"frame": {"x":1474,"y":1425,"w":68,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/1/attack/1_police_attack_Attack_000_001.png":
+{
+	"frame": {"x":1638,"y":1461,"w":68,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/1/attack/1_police_attack_Attack_000_002.png":
+{
+	"frame": {"x":500,"y":1524,"w":120,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":120,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/1/attack/1_police_attack_Attack_000_003.png":
+{
+	"frame": {"x":1177,"y":1493,"w":122,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":122,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/1/attack/1_police_attack_Attack_000_004.png":
+{
+	"frame": {"x":1916,"y":1247,"w":123,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":123,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/1/attack/1_police_attack_Attack_000_005.png":
+{
+	"frame": {"x":1344,"y":1331,"w":128,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":128,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/1/hurt/1_police_Hurt_000.png":
+{
+	"frame": {"x":335,"y":1377,"w":68,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":40,"y":0,"w":68,"h":165},
+	"sourceSize": {"w":160,"h":179}
+},
+"police/1/hurt/1_police_Hurt_001.png":
+{
+	"frame": {"x":491,"y":1724,"w":73,"h":158},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":8,"w":73,"h":158},
+	"sourceSize": {"w":160,"h":179}
+},
+"police/1/hurt/1_police_Hurt_002.png":
+{
+	"frame": {"x":837,"y":1335,"w":87,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":17,"w":87,"h":148},
+	"sourceSize": {"w":160,"h":179}
+},
+"police/1/hurt/1_police_Hurt_003.png":
+{
+	"frame": {"x":1802,"y":1424,"w":98,"h":141},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":24,"w":98,"h":141},
+	"sourceSize": {"w":160,"h":179}
+},
+"police/1/hurt/1_police_Hurt_004.png":
+{
+	"frame": {"x":1644,"y":1679,"w":75,"h":153},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":12,"w":75,"h":153},
+	"sourceSize": {"w":160,"h":179}
+},
+"police/1/hurt/1_police_Hurt_005.png":
+{
+	"frame": {"x":1644,"y":1317,"w":71,"h":163},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":2,"w":71,"h":163},
+	"sourceSize": {"w":160,"h":179}
+},
+"police/1/hurt/1_police_Hurt_006.png":
+{
+	"frame": {"x":1182,"y":1850,"w":94,"h":155},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":8,"w":94,"h":155},
+	"sourceSize": {"w":160,"h":179}
+},
+"police/1/hurt/1_police_Hurt_007.png":
+{
+	"frame": {"x":1354,"y":918,"w":125,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":45,"w":125,"h":118},
+	"sourceSize": {"w":160,"h":179}
+},
+"police/1/hurt/1_police_Hurt_008.png":
+{
+	"frame": {"x":1492,"y":1495,"w":160,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":108,"w":160,"h":69},
+	"sourceSize": {"w":160,"h":179}
+},
+"police/1/idle/1_police_Idle_000.png":
+{
+	"frame": {"x":168,"y":1443,"w":68,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":68,"h":165},
+	"sourceSize": {"w":71,"h":165}
+},
+"police/1/idle/1_police_Idle_001.png":
+{
+	"frame": {"x":1,"y":1499,"w":68,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":68,"h":165},
+	"sourceSize": {"w":71,"h":165}
+},
+"police/1/idle/1_police_Idle_002.png":
+{
+	"frame": {"x":1180,"y":1144,"w":68,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":165},
+	"sourceSize": {"w":71,"h":165}
+},
+"police/1/idle/1_police_Idle_003.png":
+{
+	"frame": {"x":1013,"y":1166,"w":68,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":165},
+	"sourceSize": {"w":71,"h":165}
+},
+"police/1/idle/1_police_Idle_004.png":
+{
+	"frame": {"x":1648,"y":999,"w":68,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":68,"h":165},
+	"sourceSize": {"w":71,"h":165}
+},
+"police/1/idle/1_police_Idle_005.png":
+{
+	"frame": {"x":1481,"y":1049,"w":68,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":68,"h":165},
+	"sourceSize": {"w":71,"h":165}
+},
+"police/1/idle/1_police_Idle_006.png":
+{
+	"frame": {"x":1648,"y":1069,"w":68,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":68,"h":165},
+	"sourceSize": {"w":71,"h":165}
+},
+"police/1/idle/1_police_Idle_007.png":
+{
+	"frame": {"x":1481,"y":1119,"w":68,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":68,"h":165},
+	"sourceSize": {"w":71,"h":165}
+},
+"police/1/jump/1_police_Jump_000.png":
+{
+	"frame": {"x":1606,"y":1756,"w":68,"h":160},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":87,"w":68,"h":160},
+	"sourceSize": {"w":98,"h":247}
+},
+"police/1/jump/1_police_Jump_001.png":
+{
+	"frame": {"x":92,"y":1824,"w":78,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":64,"w":78,"h":161},
+	"sourceSize": {"w":98,"h":247}
+},
+"police/1/jump/1_police_Jump_002.png":
+{
+	"frame": {"x":502,"y":1430,"w":92,"h":163},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":35,"w":92,"h":163},
+	"sourceSize": {"w":98,"h":247}
+},
+"police/1/jump/1_police_Jump_003.png":
+{
+	"frame": {"x":1825,"y":777,"w":96,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":96,"h":162},
+	"sourceSize": {"w":98,"h":247}
+},
+"police/1/jump/1_police_Jump_004.png":
+{
+	"frame": {"x":1024,"y":1860,"w":95,"h":156},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":95,"h":156},
+	"sourceSize": {"w":98,"h":247}
+},
+"police/1/jump/1_police_Jump_005.png":
+{
+	"frame": {"x":964,"y":1960,"w":86,"h":160},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":20,"w":86,"h":160},
+	"sourceSize": {"w":98,"h":247}
+},
+"police/1/jump/1_police_Jump_006.png":
+{
+	"frame": {"x":1638,"y":1390,"w":69,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":54,"w":69,"h":162},
+	"sourceSize": {"w":98,"h":247}
+},
+"police/1/jump/1_police_Jump_007.png":
+{
+	"frame": {"x":176,"y":191,"w":67,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":82,"w":67,"h":163},
+	"sourceSize": {"w":98,"h":247}
+},
+"police/1/run/1_police_Run_000.png":
+{
+	"frame": {"x":1799,"y":1726,"w":75,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":5,"w":75,"h":159},
+	"sourceSize": {"w":90,"h":165}
+},
+"police/1/run/1_police_Run_001.png":
+{
+	"frame": {"x":1474,"y":1347,"w":76,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":3,"w":76,"h":162},
+	"sourceSize": {"w":90,"h":165}
+},
+"police/1/run/1_police_Run_002.png":
+{
+	"frame": {"x":1327,"y":1657,"w":90,"h":160},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":90,"h":160},
+	"sourceSize": {"w":90,"h":165}
+},
+"police/1/run/1_police_Run_003.png":
+{
+	"frame": {"x":835,"y":1485,"w":89,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":89,"h":161},
+	"sourceSize": {"w":90,"h":165}
+},
+"police/1/run/1_police_Run_004.png":
+{
+	"frame": {"x":1,"y":1742,"w":80,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":2,"w":80,"h":162},
+	"sourceSize": {"w":90,"h":165}
+},
+"police/1/run/1_police_Run_005.png":
+{
+	"frame": {"x":1645,"y":1887,"w":71,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":3,"w":71,"h":158},
+	"sourceSize": {"w":90,"h":165}
+},
+"police/1/walk/1_police_Walk_000.png":
+{
+	"frame": {"x":330,"y":1636,"w":86,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":86,"h":162},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/1/walk/1_police_Walk_001.png":
+{
+	"frame": {"x":843,"y":1010,"w":82,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":3,"w":82,"h":164},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/1/walk/1_police_Walk_002.png":
+{
+	"frame": {"x":1481,"y":1189,"w":78,"h":164},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":2,"w":78,"h":164},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/1/walk/1_police_Walk_003.png":
+{
+	"frame": {"x":1180,"y":1214,"w":68,"h":164},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":2,"w":68,"h":164},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/1/walk/1_police_Walk_004.png":
+{
+	"frame": {"x":1180,"y":1064,"w":78,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":2,"w":78,"h":165},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/1/walk/1_police_Walk_005.png":
+{
+	"frame": {"x":1013,"y":1236,"w":68,"h":164},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":3,"w":68,"h":164},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/1/walk/1_police_Walk_006.png":
+{
+	"frame": {"x":1791,"y":1949,"w":68,"h":161},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":3,"w":68,"h":161},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/1/walk/1_police_Walk_007.png":
+{
+	"frame": {"x":664,"y":1609,"w":76,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":3,"w":76,"h":162},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/2/attack/2_police_attack_Attack_000_000.png":
+{
+	"frame": {"x":1179,"y":1284,"w":77,"h":163},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":77,"h":163},
+	"sourceSize": {"w":133,"h":163}
+},
+"police/2/attack/2_police_attack_Attack_000_001.png":
+{
+	"frame": {"x":1013,"y":1306,"w":76,"h":163},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":76,"h":163},
+	"sourceSize": {"w":133,"h":163}
+},
+"police/2/attack/2_police_attack_Attack_000_002.png":
+{
+	"frame": {"x":1361,"y":416,"w":119,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":119,"h":163},
+	"sourceSize": {"w":133,"h":163}
+},
+"police/2/attack/2_police_attack_Attack_000_003.png":
+{
+	"frame": {"x":1358,"y":753,"w":121,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":121,"h":163},
+	"sourceSize": {"w":133,"h":163}
+},
+"police/2/attack/2_police_attack_Attack_000_004.png":
+{
+	"frame": {"x":670,"y":1362,"w":122,"h":163},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":122,"h":163},
+	"sourceSize": {"w":133,"h":163}
+},
+"police/2/attack/2_police_attack_Attack_000_005.png":
+{
+	"frame": {"x":1352,"y":1038,"w":127,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":127,"h":163},
+	"sourceSize": {"w":133,"h":163}
+},
+"police/2/hurt/2_police_Hurt_000.png":
+{
+	"frame": {"x":1183,"y":986,"w":76,"h":167},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":0,"w":76,"h":167},
+	"sourceSize": {"w":170,"h":188}
+},
+"police/2/hurt/2_police_Hurt_001.png":
+{
+	"frame": {"x":344,"y":703,"w":90,"h":157},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":11,"w":90,"h":157},
+	"sourceSize": {"w":170,"h":188}
+},
+"police/2/hurt/2_police_Hurt_002.png":
+{
+	"frame": {"x":1923,"y":1099,"w":100,"h":146},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":21,"w":100,"h":146},
+	"sourceSize": {"w":170,"h":188}
+},
+"police/2/hurt/2_police_Hurt_003.png":
+{
+	"frame": {"x":1925,"y":1,"w":113,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":27,"w":113,"h":140},
+	"sourceSize": {"w":170,"h":188}
+},
+"police/2/hurt/2_police_Hurt_004.png":
+{
+	"frame": {"x":348,"y":610,"w":91,"h":153},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":37,"y":14,"w":91,"h":153},
+	"sourceSize": {"w":170,"h":188}
+},
+"police/2/hurt/2_police_Hurt_005.png":
+{
+	"frame": {"x":1013,"y":1087,"w":77,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":2,"w":77,"h":165},
+	"sourceSize": {"w":170,"h":188}
+},
+"police/2/hurt/2_police_Hurt_006.png":
+{
+	"frame": {"x":1923,"y":620,"w":102,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":9,"w":102,"h":157},
+	"sourceSize": {"w":170,"h":188}
+},
+"police/2/hurt/2_police_Hurt_007.png":
+{
+	"frame": {"x":1923,"y":143,"w":132,"h":116},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":48,"w":132,"h":116},
+	"sourceSize": {"w":170,"h":188}
+},
+"police/2/hurt/2_police_Hurt_008.png":
+{
+	"frame": {"x":1,"y":1569,"w":163,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":109,"w":163,"h":77},
+	"sourceSize": {"w":170,"h":188}
+},
+"police/2/idle/2_police_Idle_000.png":
+{
+	"frame": {"x":672,"y":1207,"w":76,"h":165},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":165},
+	"sourceSize": {"w":76,"h":165}
+},
+"police/2/idle/2_police_Idle_001.png":
+{
+	"frame": {"x":503,"y":1275,"w":76,"h":165},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":165},
+	"sourceSize": {"w":76,"h":165}
+},
+"police/2/idle/2_police_Idle_002.png":
+{
+	"frame": {"x":670,"y":1285,"w":75,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":75,"h":165},
+	"sourceSize": {"w":76,"h":165}
+},
+"police/2/idle/2_police_Idle_003.png":
+{
+	"frame": {"x":503,"y":1353,"w":75,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":75,"h":165},
+	"sourceSize": {"w":76,"h":165}
+},
+"police/2/idle/2_police_Idle_004.png":
+{
+	"frame": {"x":170,"y":1287,"w":76,"h":165},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":165},
+	"sourceSize": {"w":76,"h":165}
+},
+"police/2/idle/2_police_Idle_005.png":
+{
+	"frame": {"x":1,"y":1343,"w":76,"h":165},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":165},
+	"sourceSize": {"w":76,"h":165}
+},
+"police/2/idle/2_police_Idle_006.png":
+{
+	"frame": {"x":168,"y":1365,"w":76,"h":165},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":165},
+	"sourceSize": {"w":76,"h":165}
+},
+"police/2/idle/2_police_Idle_007.png":
+{
+	"frame": {"x":1,"y":1421,"w":76,"h":165},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":76,"h":165},
+	"sourceSize": {"w":76,"h":165}
+},
+"police/2/jump/2_police_Jump_000.png":
+{
+	"frame": {"x":1341,"y":1495,"w":76,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":87,"w":76,"h":160},
+	"sourceSize": {"w":104,"h":247}
+},
+"police/2/jump/2_police_Jump_001.png":
+{
+	"frame": {"x":926,"y":1275,"w":85,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":65,"w":85,"h":161},
+	"sourceSize": {"w":104,"h":247}
+},
+"police/2/jump/2_police_Jump_002.png":
+{
+	"frame": {"x":1648,"y":1139,"w":98,"h":164},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":35,"w":98,"h":164},
+	"sourceSize": {"w":104,"h":247}
+},
+"police/2/jump/2_police_Jump_003.png":
+{
+	"frame": {"x":1815,"y":1105,"w":99,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":99,"h":163},
+	"sourceSize": {"w":104,"h":247}
+},
+"police/2/jump/2_police_Jump_004.png":
+{
+	"frame": {"x":343,"y":887,"w":97,"h":158},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":97,"h":158},
+	"sourceSize": {"w":104,"h":247}
+},
+"police/2/jump/2_police_Jump_005.png":
+{
+	"frame": {"x":1,"y":1648,"w":92,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":20,"w":92,"h":162},
+	"sourceSize": {"w":104,"h":247}
+},
+"police/2/jump/2_police_Jump_006.png":
+{
+	"frame": {"x":494,"y":1646,"w":76,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":54,"w":76,"h":162},
+	"sourceSize": {"w":104,"h":247}
+},
+"police/2/jump/2_police_Jump_007.png":
+{
+	"frame": {"x":1647,"y":1239,"w":76,"h":163},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":82,"w":76,"h":163},
+	"sourceSize": {"w":104,"h":247}
+},
+"police/2/run/2_police_Run_000.png":
+{
+	"frame": {"x":926,"y":1601,"w":84,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":6,"w":84,"h":159},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/2/run/2_police_Run_001.png":
+{
+	"frame": {"x":926,"y":1438,"w":84,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":4,"w":84,"h":161},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/2/run/2_police_Run_002.png":
+{
+	"frame": {"x":1825,"y":941,"w":96,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":96,"h":162},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/2/run/2_police_Run_003.png":
+{
+	"frame": {"x":333,"y":1538,"w":96,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":96,"h":162},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/2/run/2_police_Run_004.png":
+{
+	"frame": {"x":1833,"y":269,"w":88,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":2,"w":88,"h":164},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/2/run/2_police_Run_005.png":
+{
+	"frame": {"x":702,"y":1880,"w":79,"h":158},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":4,"w":79,"h":158},
+	"sourceSize": {"w":97,"h":167}
+},
+"police/2/walk/2_police_Walk_000.png":
+{
+	"frame": {"x":166,"y":1599,"w":93,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":93,"h":162},
+	"sourceSize": {"w":95,"h":166}
+},
+"police/2/walk/2_police_Walk_001.png":
+{
+	"frame": {"x":335,"y":1447,"w":89,"h":163},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":3,"w":89,"h":163},
+	"sourceSize": {"w":95,"h":166}
+},
+"police/2/walk/2_police_Walk_002.png":
+{
+	"frame": {"x":927,"y":1109,"w":84,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":2,"w":84,"h":164},
+	"sourceSize": {"w":95,"h":166}
+},
+"police/2/walk/2_police_Walk_003.png":
+{
+	"frame": {"x":1479,"y":1269,"w":76,"h":163},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":3,"w":76,"h":163},
+	"sourceSize": {"w":95,"h":166}
+},
+"police/2/walk/2_police_Walk_004.png":
+{
+	"frame": {"x":172,"y":1799,"w":77,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":3,"w":77,"h":161},
+	"sourceSize": {"w":95,"h":166}
+},
+"police/2/walk/2_police_Walk_005.png":
+{
+	"frame": {"x":251,"y":1799,"w":76,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":3,"w":76,"h":161},
+	"sourceSize": {"w":95,"h":166}
+},
+"police/2/walk/2_police_Walk_006.png":
+{
+	"frame": {"x":1801,"y":1567,"w":76,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":4,"w":76,"h":157},
+	"sourceSize": {"w":95,"h":166}
+},
+"police/2/walk/2_police_Walk_007.png":
+{
+	"frame": {"x":172,"y":1962,"w":84,"h":158},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":4,"w":84,"h":158},
+	"sourceSize": {"w":95,"h":166}
+},
+"police/3/attack/3_police_attack_Attack_000.png":
+{
+	"frame": {"x":853,"y":345,"w":73,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":73,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/3/attack/3_police_attack_Attack_001.png":
+{
+	"frame": {"x":658,"y":1687,"w":72,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":72,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/3/attack/3_police_attack_Attack_002.png":
+{
+	"frame": {"x":667,"y":1486,"w":121,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":121,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/3/attack/3_police_attack_Attack_003.png":
+{
+	"frame": {"x":1012,"y":1509,"w":122,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":122,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/3/attack/3_police_attack_Attack_004.png":
+{
+	"frame": {"x":1013,"y":1384,"w":123,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":123,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/3/attack/3_police_attack_Attack_005.png":
+{
+	"frame": {"x":1178,"y":1363,"w":128,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":128,"h":162},
+	"sourceSize": {"w":134,"h":162}
+},
+"police/3/hurt/3_police_Hurt_000.png":
+{
+	"frame": {"x":329,"y":1799,"w":75,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":1,"w":75,"h":161},
+	"sourceSize": {"w":165,"h":183}
+},
+"police/3/hurt/3_police_Hurt_001.png":
+{
+	"frame": {"x":828,"y":1799,"w":79,"h":155},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":8,"w":79,"h":155},
+	"sourceSize": {"w":165,"h":183}
+},
+"police/3/hurt/3_police_Hurt_002.png":
+{
+	"frame": {"x":1126,"y":1957,"w":89,"h":146},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":16,"w":89,"h":146},
+	"sourceSize": {"w":165,"h":183}
+},
+"police/3/hurt/3_police_Hurt_003.png":
+{
+	"frame": {"x":985,"y":1762,"w":96,"h":140},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":22,"w":96,"h":140},
+	"sourceSize": {"w":165,"h":183}
+},
+"police/3/hurt/3_police_Hurt_004.png":
+{
+	"frame": {"x":351,"y":527,"w":81,"h":150},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":12,"w":81,"h":150},
+	"sourceSize": {"w":165,"h":183}
+},
+"police/3/hurt/3_police_Hurt_005.png":
+{
+	"frame": {"x":1563,"y":1495,"w":73,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":5,"w":73,"h":157},
+	"sourceSize": {"w":165,"h":183}
+},
+"police/3/hurt/3_police_Hurt_006.png":
+{
+	"frame": {"x":1923,"y":779,"w":101,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":8,"w":101,"h":151},
+	"sourceSize": {"w":165,"h":183}
+},
+"police/3/hurt/3_police_Hurt_007.png":
+{
+	"frame": {"x":702,"y":1761,"w":124,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":43,"w":124,"h":117},
+	"sourceSize": {"w":165,"h":183}
+},
+"police/3/hurt/3_police_Hurt_008.png":
+{
+	"frame": {"x":1644,"y":1605,"w":155,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":109,"w":155,"h":72},
+	"sourceSize": {"w":165,"h":183}
+},
+"police/3/idle/3_police_Idle_000.png":
+{
+	"frame": {"x":406,"y":1799,"w":72,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":72,"h":161},
+	"sourceSize": {"w":73,"h":161}
+},
+"police/3/idle/3_police_Idle_001.png":
+{
+	"frame": {"x":1876,"y":1876,"w":71,"h":161},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":71,"h":161},
+	"sourceSize": {"w":73,"h":161}
+},
+"police/3/idle/3_police_Idle_002.png":
+{
+	"frame": {"x":480,"y":1799,"w":72,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":72,"h":161},
+	"sourceSize": {"w":73,"h":161}
+},
+"police/3/idle/3_police_Idle_003.png":
+{
+	"frame": {"x":554,"y":1799,"w":72,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":72,"h":161},
+	"sourceSize": {"w":73,"h":161}
+},
+"police/3/idle/3_police_Idle_004.png":
+{
+	"frame": {"x":628,"y":1799,"w":72,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":72,"h":161},
+	"sourceSize": {"w":73,"h":161}
+},
+"police/3/idle/3_police_Idle_005.png":
+{
+	"frame": {"x":1638,"y":1531,"w":72,"h":161},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":72,"h":161},
+	"sourceSize": {"w":73,"h":161}
+},
+"police/3/idle/3_police_Idle_006.png":
+{
+	"frame": {"x":1876,"y":1728,"w":72,"h":161},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":72,"h":161},
+	"sourceSize": {"w":73,"h":161}
+},
+"police/3/idle/3_police_Idle_007.png":
+{
+	"frame": {"x":1876,"y":1802,"w":72,"h":161},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":72,"h":161},
+	"sourceSize": {"w":73,"h":161}
+},
+"police/3/jump/3_police_Jump_000.png":
+{
+	"frame": {"x":1718,"y":1887,"w":71,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":87,"w":71,"h":157},
+	"sourceSize": {"w":103,"h":244}
+},
+"police/3/jump/3_police_Jump_001.png":
+{
+	"frame": {"x":332,"y":1962,"w":84,"h":158},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":64,"w":84,"h":158},
+	"sourceSize": {"w":103,"h":244}
+},
+"police/3/jump/3_police_Jump_002.png":
+{
+	"frame": {"x":341,"y":1086,"w":97,"h":160},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":35,"w":97,"h":160},
+	"sourceSize": {"w":103,"h":244}
+},
+"police/3/jump/3_police_Jump_003.png":
+{
+	"frame": {"x":342,"y":986,"w":98,"h":159},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":98,"h":159},
+	"sourceSize": {"w":103,"h":244}
+},
+"police/3/jump/3_police_Jump_004.png":
+{
+	"frame": {"x":1012,"y":1657,"w":95,"h":155},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":95,"h":155},
+	"sourceSize": {"w":103,"h":244}
+},
+"police/3/jump/3_police_Jump_005.png":
+{
+	"frame": {"x":344,"y":795,"w":90,"h":157},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":20,"w":90,"h":157},
+	"sourceSize": {"w":103,"h":244}
+},
+"police/3/jump/3_police_Jump_006.png":
+{
+	"frame": {"x":853,"y":184,"w":74,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":54,"w":74,"h":159},
+	"sourceSize": {"w":103,"h":244}
+},
+"police/3/jump/3_police_Jump_007.png":
+{
+	"frame": {"x":1419,"y":1495,"w":71,"h":160},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":82,"w":71,"h":160},
+	"sourceSize": {"w":103,"h":244}
+},
+"police/3/run/3_police_Run_000.png":
+{
+	"frame": {"x":648,"y":1962,"w":82,"h":154},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":5,"w":82,"h":154},
+	"sourceSize": {"w":95,"h":160}
+},
+"police/3/run/3_police_Run_001.png":
+{
+	"frame": {"x":842,"y":1176,"w":82,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":2,"w":82,"h":157},
+	"sourceSize": {"w":95,"h":160}
+},
+"police/3/run/3_police_Run_002.png":
+{
+	"frame": {"x":1127,"y":1754,"w":94,"h":156},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":94,"h":156},
+	"sourceSize": {"w":95,"h":160}
+},
+"police/3/run/3_police_Run_003.png":
+{
+	"frame": {"x":1169,"y":1657,"w":94,"h":156},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":94,"h":156},
+	"sourceSize": {"w":95,"h":160}
+},
+"police/3/run/3_police_Run_004.png":
+{
+	"frame": {"x":1446,"y":1749,"w":86,"h":158},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":1,"w":86,"h":158},
+	"sourceSize": {"w":95,"h":160}
+},
+"police/3/run/3_police_Run_005.png":
+{
+	"frame": {"x":1489,"y":1657,"w":77,"h":153},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":3,"w":77,"h":153},
+	"sourceSize": {"w":95,"h":160}
+},
+"police/3/walk/3_police_Walk_000.png":
+{
+	"frame": {"x":341,"y":1185,"w":93,"h":160},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":93,"h":160},
+	"sourceSize": {"w":94,"h":163}
+},
+"police/3/walk/3_police_Walk_001.png":
+{
+	"frame": {"x":1,"y":1824,"w":89,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":2,"w":89,"h":161},
+	"sourceSize": {"w":94,"h":163}
+},
+"police/3/walk/3_police_Walk_002.png":
+{
+	"frame": {"x":928,"y":621,"w":83,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":1,"w":83,"h":162},
+	"sourceSize": {"w":94,"h":163}
+},
+"police/3/walk/3_police_Walk_003.png":
+{
+	"frame": {"x":853,"y":509,"w":73,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":1,"w":73,"h":162},
+	"sourceSize": {"w":94,"h":163}
+},
+"police/3/walk/3_police_Walk_004.png":
+{
+	"frame": {"x":862,"y":1880,"w":78,"h":160},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":2,"w":78,"h":160},
+	"sourceSize": {"w":94,"h":163}
+},
+"police/3/walk/3_police_Walk_005.png":
+{
+	"frame": {"x":329,"y":1724,"w":73,"h":160},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":2,"w":73,"h":160},
+	"sourceSize": {"w":94,"h":163}
+},
+"police/3/walk/3_police_Walk_006.png":
+{
+	"frame": {"x":1498,"y":1887,"w":72,"h":159},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":2,"w":72,"h":159},
+	"sourceSize": {"w":94,"h":163}
+},
+"police/3/walk/3_police_Walk_007.png":
+{
+	"frame": {"x":928,"y":949,"w":83,"h":158},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":3,"w":83,"h":158},
+	"sourceSize": {"w":94,"h":163}
+},
+"terrorist/1/attack/1_terrorist_1_Attack1_000.png":
+{
+	"frame": {"x":1830,"y":606,"w":91,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":91,"h":169},
+	"sourceSize": {"w":117,"h":170}
+},
+"terrorist/1/attack/1_terrorist_1_Attack1_001.png":
+{
+	"frame": {"x":172,"y":808,"w":90,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":90,"h":169},
+	"sourceSize": {"w":117,"h":170}
+},
+"terrorist/1/attack/1_terrorist_1_Attack1_002.png":
+{
+	"frame": {"x":1185,"y":803,"w":100,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":170},
+	"sourceSize": {"w":117,"h":170}
+},
+"terrorist/1/attack/1_terrorist_1_Attack1_003.png":
+{
+	"frame": {"x":1481,"y":686,"w":101,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":101,"h":170},
+	"sourceSize": {"w":117,"h":170}
+},
+"terrorist/1/attack/1_terrorist_1_Attack1_004.png":
+{
+	"frame": {"x":1923,"y":448,"w":102,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":102,"h":170},
+	"sourceSize": {"w":117,"h":170}
+},
+"terrorist/1/attack/1_terrorist_1_Attack1_005.png":
+{
+	"frame": {"x":1365,"y":244,"w":115,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":115,"h":170},
+	"sourceSize": {"w":117,"h":170}
+},
+"terrorist/1/hurt/1_terrorist_1_Hurt_000.png":
+{
+	"frame": {"x":1482,"y":263,"w":81,"h":174},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":0,"w":81,"h":174},
+	"sourceSize": {"w":163,"h":182}
+},
+"terrorist/1/hurt/1_terrorist_1_Hurt_001.png":
+{
+	"frame": {"x":420,"y":359,"w":81,"h":166},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":8,"w":81,"h":166},
+	"sourceSize": {"w":163,"h":182}
+},
+"terrorist/1/hurt/1_terrorist_1_Hurt_002.png":
+{
+	"frame": {"x":1339,"y":1847,"w":88,"h":157},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":17,"w":88,"h":157},
+	"sourceSize": {"w":163,"h":182}
+},
+"terrorist/1/hurt/1_terrorist_1_Hurt_003.png":
+{
+	"frame": {"x":828,"y":1648,"w":96,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":25,"w":96,"h":149},
+	"sourceSize": {"w":163,"h":182}
+},
+"terrorist/1/hurt/1_terrorist_1_Hurt_004.png":
+{
+	"frame": {"x":928,"y":785,"w":83,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":12,"w":83,"h":162},
+	"sourceSize": {"w":163,"h":182}
+},
+"terrorist/1/hurt/1_terrorist_1_Hurt_005.png":
+{
+	"frame": {"x":1481,"y":883,"w":82,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":4,"w":82,"h":170},
+	"sourceSize": {"w":163,"h":182}
+},
+"terrorist/1/hurt/1_terrorist_1_Hurt_006.png":
+{
+	"frame": {"x":1923,"y":932,"w":100,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":9,"w":100,"h":165},
+	"sourceSize": {"w":163,"h":182}
+},
+"terrorist/1/hurt/1_terrorist_1_Hurt_007.png":
+{
+	"frame": {"x":1902,"y":1531,"w":124,"h":128},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":46,"w":124,"h":128},
+	"sourceSize": {"w":163,"h":182}
+},
+"terrorist/1/hurt/1_terrorist_1_Hurt_008.png":
+{
+	"frame": {"x":1879,"y":1657,"w":160,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":105,"w":160,"h":69},
+	"sourceSize": {"w":163,"h":182}
+},
+"terrorist/1/idle/1_terrorist_1_Idle_000.png":
+{
+	"frame": {"x":1,"y":191,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/1/idle/1_terrorist_1_Idle_001.png":
+{
+	"frame": {"x":245,"y":273,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/1/idle/1_terrorist_1_Idle_002.png":
+{
+	"frame": {"x":245,"y":354,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/1/idle/1_terrorist_1_Idle_003.png":
+{
+	"frame": {"x":1,"y":272,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/1/idle/1_terrorist_1_Idle_004.png":
+{
+	"frame": {"x":1,"y":353,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/1/idle/1_terrorist_1_Idle_005.png":
+{
+	"frame": {"x":1,"y":434,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/1/idle/1_terrorist_1_Idle_006.png":
+{
+	"frame": {"x":503,"y":268,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/1/idle/1_terrorist_1_Idle_007.png":
+{
+	"frame": {"x":678,"y":268,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/1/jump/1_terrorist_1_Jump_000.png":
+{
+	"frame": {"x":1,"y":1261,"w":80,"h":167},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":87,"w":80,"h":167},
+	"sourceSize": {"w":95,"h":254}
+},
+"terrorist/1/jump/1_terrorist_1_Jump_001.png":
+{
+	"frame": {"x":1483,"y":177,"w":84,"h":190},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":64,"w":84,"h":190},
+	"sourceSize": {"w":95,"h":254}
+},
+"terrorist/1/jump/1_terrorist_1_Jump_002.png":
+{
+	"frame": {"x":1483,"y":1,"w":92,"h":219},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":35,"w":92,"h":219},
+	"sourceSize": {"w":95,"h":254}
+},
+"terrorist/1/jump/1_terrorist_1_Jump_003.png":
+{
+	"frame": {"x":767,"y":1,"w":95,"h":244},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":95,"h":244},
+	"sourceSize": {"w":95,"h":254}
+},
+"terrorist/1/jump/1_terrorist_1_Jump_004.png":
+{
+	"frame": {"x":1,"y":1,"w":93,"h":254},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":93,"h":254},
+	"sourceSize": {"w":95,"h":254}
+},
+"terrorist/1/jump/1_terrorist_1_Jump_005.png":
+{
+	"frame": {"x":503,"y":94,"w":88,"h":234},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":20,"w":88,"h":234},
+	"sourceSize": {"w":95,"h":254}
+},
+"terrorist/1/jump/1_terrorist_1_Jump_006.png":
+{
+	"frame": {"x":1013,"y":91,"w":80,"h":200},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":54,"w":80,"h":200},
+	"sourceSize": {"w":95,"h":254}
+},
+"terrorist/1/jump/1_terrorist_1_Jump_007.png":
+{
+	"frame": {"x":1187,"y":434,"w":80,"h":172},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":82,"w":80,"h":172},
+	"sourceSize": {"w":95,"h":254}
+},
+"terrorist/1/run/1_terrorist_1_Run_000.png":
+{
+	"frame": {"x":171,"y":1030,"w":80,"h":168},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":5,"w":80,"h":168},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/1/run/1_terrorist_1_Run_001.png":
+{
+	"frame": {"x":1481,"y":604,"w":80,"h":171},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":2,"w":80,"h":171},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/1/run/1_terrorist_1_Run_002.png":
+{
+	"frame": {"x":1653,"y":735,"w":92,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":92,"h":170},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/1/run/1_terrorist_1_Run_003.png":
+{
+	"frame": {"x":674,"y":693,"w":92,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":92,"h":169},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/1/run/1_terrorist_1_Run_004.png":
+{
+	"frame": {"x":1482,"y":435,"w":83,"h":172},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":1,"w":83,"h":172},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/1/run/1_terrorist_1_Run_005.png":
+{
+	"frame": {"x":1653,"y":917,"w":80,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":3,"w":80,"h":170},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/1/walk/1_terrorist_1_Walk_000.png":
+{
+	"frame": {"x":1013,"y":341,"w":91,"h":172},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":91,"h":172},
+	"sourceSize": {"w":92,"h":175}
+},
+"terrorist/1/walk/1_terrorist_1_Walk_001.png":
+{
+	"frame": {"x":1658,"y":269,"w":87,"h":173},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":2,"w":87,"h":173},
+	"sourceSize": {"w":92,"h":175}
+},
+"terrorist/1/walk/1_terrorist_1_Walk_002.png":
+{
+	"frame": {"x":1013,"y":257,"w":82,"h":173},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":2,"w":82,"h":173},
+	"sourceSize": {"w":92,"h":175}
+},
+"terrorist/1/walk/1_terrorist_1_Walk_003.png":
+{
+	"frame": {"x":1188,"y":257,"w":82,"h":173},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":2,"w":82,"h":173},
+	"sourceSize": {"w":92,"h":175}
+},
+"terrorist/1/walk/1_terrorist_1_Walk_004.png":
+{
+	"frame": {"x":503,"y":184,"w":82,"h":173},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":2,"w":82,"h":173},
+	"sourceSize": {"w":92,"h":175}
+},
+"terrorist/1/walk/1_terrorist_1_Walk_005.png":
+{
+	"frame": {"x":678,"y":184,"w":82,"h":173},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":2,"w":82,"h":173},
+	"sourceSize": {"w":92,"h":175}
+},
+"terrorist/1/walk/1_terrorist_1_Walk_006.png":
+{
+	"frame": {"x":1482,"y":520,"w":82,"h":172},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":3,"w":82,"h":172},
+	"sourceSize": {"w":92,"h":175}
+},
+"terrorist/1/walk/1_terrorist_1_Walk_007.png":
+{
+	"frame": {"x":1656,"y":529,"w":82,"h":172},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":3,"w":82,"h":172},
+	"sourceSize": {"w":92,"h":175}
+},
+"terrorist/2/attack/2_terrorist_2_Attack1_000.png":
+{
+	"frame": {"x":503,"y":675,"w":94,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":1,"w":94,"h":169},
+	"sourceSize": {"w":121,"h":170}
+},
+"terrorist/2/attack/2_terrorist_2_Attack1_001.png":
+{
+	"frame": {"x":675,"y":593,"w":98,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":1,"w":98,"h":169},
+	"sourceSize": {"w":121,"h":170}
+},
+"terrorist/2/attack/2_terrorist_2_Attack1_002.png":
+{
+	"frame": {"x":1361,"y":581,"w":118,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":118,"h":170},
+	"sourceSize": {"w":121,"h":170}
+},
+"terrorist/2/attack/2_terrorist_2_Attack1_003.png":
+{
+	"frame": {"x":1186,"y":680,"w":121,"h":170},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":121,"h":170},
+	"sourceSize": {"w":121,"h":170}
+},
+"terrorist/2/attack/2_terrorist_2_Attack1_004.png":
+{
+	"frame": {"x":1013,"y":684,"w":120,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":120,"h":170},
+	"sourceSize": {"w":121,"h":170}
+},
+"terrorist/2/attack/2_terrorist_2_Attack1_005.png":
+{
+	"frame": {"x":1654,"y":613,"w":120,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":170},
+	"sourceSize": {"w":121,"h":170}
+},
+"terrorist/2/hurt/2_terrorist_2_Hurt_000.png":
+{
+	"frame": {"x":929,"y":98,"w":82,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":0,"w":82,"h":174},
+	"sourceSize": {"w":163,"h":176}
+},
+"terrorist/2/hurt/2_terrorist_2_Hurt_001.png":
+{
+	"frame": {"x":503,"y":947,"w":82,"h":168},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":6,"w":82,"h":168},
+	"sourceSize": {"w":163,"h":176}
+},
+"terrorist/2/hurt/2_terrorist_2_Hurt_002.png":
+{
+	"frame": {"x":1285,"y":1753,"w":92,"h":159},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":15,"w":92,"h":159},
+	"sourceSize": {"w":163,"h":176}
+},
+"terrorist/2/hurt/2_terrorist_2_Hurt_003.png":
+{
+	"frame": {"x":1812,"y":1270,"w":99,"h":152},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":22,"w":99,"h":152},
+	"sourceSize": {"w":163,"h":176}
+},
+"terrorist/2/hurt/2_terrorist_2_Hurt_004.png":
+{
+	"frame": {"x":168,"y":1513,"w":84,"h":163},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":11,"w":84,"h":163},
+	"sourceSize": {"w":163,"h":176}
+},
+"terrorist/2/hurt/2_terrorist_2_Hurt_005.png":
+{
+	"frame": {"x":1,"y":884,"w":82,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":5,"w":82,"h":169},
+	"sourceSize": {"w":163,"h":176}
+},
+"terrorist/2/hurt/2_terrorist_2_Hurt_006.png":
+{
+	"frame": {"x":1013,"y":987,"w":98,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":9,"w":98,"h":165},
+	"sourceSize": {"w":163,"h":176}
+},
+"terrorist/2/hurt/2_terrorist_2_Hurt_007.png":
+{
+	"frame": {"x":1347,"y":1203,"w":126,"h":130},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":44,"w":126,"h":130},
+	"sourceSize": {"w":163,"h":176}
+},
+"terrorist/2/hurt/2_terrorist_2_Hurt_008.png":
+{
+	"frame": {"x":1572,"y":1887,"w":159,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":103,"w":159,"h":71},
+	"sourceSize": {"w":163,"h":176}
+},
+"terrorist/2/idle/2_terrorist_2_Idle_000.png":
+{
+	"frame": {"x":503,"y":349,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/2/idle/2_terrorist_2_Idle_001.png":
+{
+	"frame": {"x":678,"y":349,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/2/idle/2_terrorist_2_Idle_002.png":
+{
+	"frame": {"x":176,"y":435,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/2/idle/2_terrorist_2_Idle_003.png":
+{
+	"frame": {"x":1,"y":515,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/2/idle/2_terrorist_2_Idle_004.png":
+{
+	"frame": {"x":176,"y":516,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/2/idle/2_terrorist_2_Idle_005.png":
+{
+	"frame": {"x":1,"y":596,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/2/idle/2_terrorist_2_Idle_006.png":
+{
+	"frame": {"x":503,"y":430,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/2/idle/2_terrorist_2_Idle_007.png":
+{
+	"frame": {"x":678,"y":430,"w":79,"h":173},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":173},
+	"sourceSize": {"w":79,"h":173}
+},
+"terrorist/2/jump/2_terrorist_2_Jump_000.png":
+{
+	"frame": {"x":673,"y":1125,"w":80,"h":167},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":87,"w":80,"h":167},
+	"sourceSize": {"w":93,"h":254}
+},
+"terrorist/2/jump/2_terrorist_2_Jump_001.png":
+{
+	"frame": {"x":1675,"y":183,"w":84,"h":190},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":64,"w":84,"h":190},
+	"sourceSize": {"w":93,"h":254}
+},
+"terrorist/2/jump/2_terrorist_2_Jump_002.png":
+{
+	"frame": {"x":1704,"y":1,"w":89,"h":219},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":35,"w":89,"h":219},
+	"sourceSize": {"w":93,"h":254}
+},
+"terrorist/2/jump/2_terrorist_2_Jump_003.png":
+{
+	"frame": {"x":257,"y":94,"w":93,"h":244},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":93,"h":244},
+	"sourceSize": {"w":93,"h":254}
+},
+"terrorist/2/jump/2_terrorist_2_Jump_004.png":
+{
+	"frame": {"x":257,"y":1,"w":91,"h":254},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":91,"h":254},
+	"sourceSize": {"w":93,"h":254}
+},
+"terrorist/2/jump/2_terrorist_2_Jump_005.png":
+{
+	"frame": {"x":1013,"y":1,"w":88,"h":234},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":20,"w":88,"h":234},
+	"sourceSize": {"w":93,"h":254}
+},
+"terrorist/2/jump/2_terrorist_2_Jump_006.png":
+{
+	"frame": {"x":1215,"y":91,"w":80,"h":200},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":54,"w":80,"h":200},
+	"sourceSize": {"w":93,"h":254}
+},
+"terrorist/2/jump/2_terrorist_2_Jump_007.png":
+{
+	"frame": {"x":1187,"y":516,"w":80,"h":172},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":82,"w":80,"h":172},
+	"sourceSize": {"w":93,"h":254}
+},
+"terrorist/2/run/2_terrorist_2_Run_000.png":
+{
+	"frame": {"x":846,"y":673,"w":80,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":4,"w":80,"h":169},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/2/run/2_terrorist_2_Run_001.png":
+{
+	"frame": {"x":1186,"y":598,"w":80,"h":171},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":2,"w":80,"h":171},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/2/run/2_terrorist_2_Run_002.png":
+{
+	"frame": {"x":1481,"y":789,"w":92,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":92,"h":170},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/2/run/2_terrorist_2_Run_003.png":
+{
+	"frame": {"x":503,"y":771,"w":92,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":92,"h":169},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/2/run/2_terrorist_2_Run_004.png":
+{
+	"frame": {"x":1656,"y":444,"w":83,"h":172},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":1,"w":83,"h":172},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/2/run/2_terrorist_2_Run_005.png":
+{
+	"frame": {"x":503,"y":511,"w":80,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":3,"w":80,"h":170},
+	"sourceSize": {"w":92,"h":173}
+},
+"terrorist/2/walk/2_terrorist_2_Walk_000.png":
+{
+	"frame": {"x":1187,"y":341,"w":91,"h":172},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":91,"h":172},
+	"sourceSize": {"w":94,"h":175}
+},
+"terrorist/2/walk/2_terrorist_2_Walk_001.png":
+{
+	"frame": {"x":1482,"y":346,"w":87,"h":173},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":2,"w":87,"h":173},
+	"sourceSize": {"w":94,"h":175}
+},
+"terrorist/2/walk/2_terrorist_2_Walk_002.png":
+{
+	"frame": {"x":1013,"y":173,"w":82,"h":174},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":1,"w":82,"h":174},
+	"sourceSize": {"w":94,"h":175}
+},
+"terrorist/2/walk/2_terrorist_2_Walk_003.png":
+{
+	"frame": {"x":1189,"y":173,"w":82,"h":174},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":1,"w":82,"h":174},
+	"sourceSize": {"w":94,"h":175}
+},
+"terrorist/2/walk/2_terrorist_2_Walk_004.png":
+{
+	"frame": {"x":1657,"y":358,"w":84,"h":173},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":2,"w":84,"h":173},
+	"sourceSize": {"w":94,"h":175}
+},
+"terrorist/2/walk/2_terrorist_2_Walk_005.png":
+{
+	"frame": {"x":929,"y":274,"w":82,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":2,"w":82,"h":173},
+	"sourceSize": {"w":94,"h":175}
+},
+"terrorist/2/walk/2_terrorist_2_Walk_006.png":
+{
+	"frame": {"x":245,"y":189,"w":82,"h":173},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":2,"w":82,"h":173},
+	"sourceSize": {"w":94,"h":175}
+},
+"terrorist/2/walk/2_terrorist_2_Walk_007.png":
+{
+	"frame": {"x":1013,"y":434,"w":82,"h":172},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":3,"w":82,"h":172},
+	"sourceSize": {"w":94,"h":175}
+},
+"terrorist/3/attack/3_terrorist_3_Attack1_000.png":
+{
+	"frame": {"x":1013,"y":806,"w":98,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":0,"w":98,"h":169},
+	"sourceSize": {"w":128,"h":169}
+},
+"terrorist/3/attack/3_terrorist_3_Attack1_001.png":
+{
+	"frame": {"x":1923,"y":277,"w":105,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":105,"h":169},
+	"sourceSize": {"w":128,"h":169}
+},
+"terrorist/3/attack/3_terrorist_3_Attack1_002.png":
+{
+	"frame": {"x":1,"y":759,"w":123,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":123,"h":169},
+	"sourceSize": {"w":128,"h":169}
+},
+"terrorist/3/attack/3_terrorist_3_Attack1_003.png":
+{
+	"frame": {"x":173,"y":679,"w":127,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":127,"h":169},
+	"sourceSize": {"w":128,"h":169}
+},
+"terrorist/3/attack/3_terrorist_3_Attack1_004.png":
+{
+	"frame": {"x":172,"y":900,"w":128,"h":168},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":128,"h":168},
+	"sourceSize": {"w":128,"h":169}
+},
+"terrorist/3/attack/3_terrorist_3_Attack1_005.png":
+{
+	"frame": {"x":1,"y":968,"w":128,"h":168},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":128,"h":168},
+	"sourceSize": {"w":128,"h":169}
+},
+"terrorist/3/hurt/3_terrorist_3_Hurt_000.png":
+{
+	"frame": {"x":420,"y":189,"w":81,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":0,"w":81,"h":168},
+	"sourceSize": {"w":154,"h":168}
+},
+"terrorist/3/hurt/3_terrorist_3_Hurt_001.png":
+{
+	"frame": {"x":165,"y":1694,"w":81,"h":162},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":6,"w":81,"h":162},
+	"sourceSize": {"w":154,"h":168}
+},
+"terrorist/3/hurt/3_terrorist_3_Hurt_002.png":
+{
+	"frame": {"x":492,"y":1962,"w":84,"h":154},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":14,"w":84,"h":154},
+	"sourceSize": {"w":154,"h":168}
+},
+"terrorist/3/hurt/3_terrorist_3_Hurt_003.png":
+{
+	"frame": {"x":1274,"y":1946,"w":90,"h":147},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":21,"w":90,"h":147},
+	"sourceSize": {"w":154,"h":168}
+},
+"terrorist/3/hurt/3_terrorist_3_Hurt_004.png":
+{
+	"frame": {"x":804,"y":1961,"w":81,"h":158},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":10,"w":81,"h":158},
+	"sourceSize": {"w":154,"h":168}
+},
+"terrorist/3/hurt/3_terrorist_3_Hurt_005.png":
+{
+	"frame": {"x":845,"y":844,"w":81,"h":164},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":4,"w":81,"h":164},
+	"sourceSize": {"w":154,"h":168}
+},
+"terrorist/3/hurt/3_terrorist_3_Hurt_006.png":
+{
+	"frame": {"x":340,"y":1280,"w":95,"h":161},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":7,"w":95,"h":161},
+	"sourceSize": {"w":154,"h":168}
+},
+"terrorist/3/hurt/3_terrorist_3_Hurt_007.png":
+{
+	"frame": {"x":1913,"y":1411,"w":118,"h":126},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":42,"w":118,"h":126},
+	"sourceSize": {"w":154,"h":168}
+},
+"terrorist/3/hurt/3_terrorist_3_Hurt_008.png":
+{
+	"frame": {"x":1417,"y":91,"w":151,"h":64},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":104,"w":151,"h":64},
+	"sourceSize": {"w":154,"h":168}
+},
+"terrorist/3/idle/3_terrorist_3_Idle_000.png":
+{
+	"frame": {"x":673,"y":963,"w":79,"h":168},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":168},
+	"sourceSize": {"w":79,"h":168}
+},
+"terrorist/3/idle/3_terrorist_3_Idle_001.png":
+{
+	"frame": {"x":503,"y":1031,"w":79,"h":168},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":168},
+	"sourceSize": {"w":79,"h":168}
+},
+"terrorist/3/idle/3_terrorist_3_Idle_002.png":
+{
+	"frame": {"x":171,"y":1112,"w":79,"h":168},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":168},
+	"sourceSize": {"w":79,"h":168}
+},
+"terrorist/3/idle/3_terrorist_3_Idle_003.png":
+{
+	"frame": {"x":1,"y":1180,"w":79,"h":168},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":168},
+	"sourceSize": {"w":79,"h":168}
+},
+"terrorist/3/idle/3_terrorist_3_Idle_004.png":
+{
+	"frame": {"x":1184,"y":905,"w":79,"h":168},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":168},
+	"sourceSize": {"w":79,"h":168}
+},
+"terrorist/3/idle/3_terrorist_3_Idle_005.png":
+{
+	"frame": {"x":1013,"y":906,"w":79,"h":168},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":168},
+	"sourceSize": {"w":79,"h":168}
+},
+"terrorist/3/idle/3_terrorist_3_Idle_006.png":
+{
+	"frame": {"x":673,"y":1044,"w":79,"h":168},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":168},
+	"sourceSize": {"w":79,"h":168}
+},
+"terrorist/3/idle/3_terrorist_3_Idle_007.png":
+{
+	"frame": {"x":503,"y":1112,"w":79,"h":168},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":79,"h":168},
+	"sourceSize": {"w":79,"h":168}
+},
+"terrorist/3/jump/3_terrorist_3_Jump_000.png":
+{
+	"frame": {"x":1481,"y":967,"w":80,"h":165},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":87,"w":80,"h":165},
+	"sourceSize": {"w":93,"h":252}
+},
+"terrorist/3/jump/3_terrorist_3_Jump_001.png":
+{
+	"frame": {"x":739,"y":98,"w":84,"h":188},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":64,"w":84,"h":188},
+	"sourceSize": {"w":93,"h":252}
+},
+"terrorist/3/jump/3_terrorist_3_Jump_002.png":
+{
+	"frame": {"x":1704,"y":92,"w":89,"h":217},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":35,"w":89,"h":217},
+	"sourceSize": {"w":93,"h":252}
+},
+"terrorist/3/jump/3_terrorist_3_Jump_003.png":
+{
+	"frame": {"x":1,"y":96,"w":93,"h":242},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":93,"h":242},
+	"sourceSize": {"w":93,"h":252}
+},
+"terrorist/3/jump/3_terrorist_3_Jump_004.png":
+{
+	"frame": {"x":513,"y":1,"w":91,"h":252},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":91,"h":252},
+	"sourceSize": {"w":93,"h":252}
+},
+"terrorist/3/jump/3_terrorist_3_Jump_005.png":
+{
+	"frame": {"x":1249,"y":1,"w":88,"h":232},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":20,"w":88,"h":232},
+	"sourceSize": {"w":93,"h":252}
+},
+"terrorist/3/jump/3_terrorist_3_Jump_006.png":
+{
+	"frame": {"x":1483,"y":95,"w":80,"h":198},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":54,"w":80,"h":198},
+	"sourceSize": {"w":93,"h":252}
+},
+"terrorist/3/jump/3_terrorist_3_Jump_007.png":
+{
+	"frame": {"x":176,"y":597,"w":80,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":82,"w":80,"h":170},
+	"sourceSize": {"w":93,"h":252}
+},
+"terrorist/3/run/3_terrorist_3_Run_000.png":
+{
+	"frame": {"x":503,"y":1193,"w":80,"h":167},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":4,"w":80,"h":167},
+	"sourceSize": {"w":92,"h":171}
+},
+"terrorist/3/run/3_terrorist_3_Run_001.png":
+{
+	"frame": {"x":674,"y":787,"w":80,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":2,"w":80,"h":169},
+	"sourceSize": {"w":92,"h":171}
+},
+"terrorist/3/run/3_terrorist_3_Run_002.png":
+{
+	"frame": {"x":674,"y":869,"w":92,"h":168},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":92,"h":168},
+	"sourceSize": {"w":92,"h":171}
+},
+"terrorist/3/run/3_terrorist_3_Run_003.png":
+{
+	"frame": {"x":171,"y":1193,"w":92,"h":167},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":4,"w":92,"h":167},
+	"sourceSize": {"w":92,"h":171}
+},
+"terrorist/3/run/3_terrorist_3_Run_004.png":
+{
+	"frame": {"x":928,"y":449,"w":83,"h":170},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":1,"w":83,"h":170},
+	"sourceSize": {"w":92,"h":171}
+},
+"terrorist/3/run/3_terrorist_3_Run_005.png":
+{
+	"frame": {"x":1,"y":1098,"w":80,"h":168},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":3,"w":80,"h":168},
+	"sourceSize": {"w":92,"h":171}
+},
+"terrorist/3/walk/3_terrorist_3_Walk_000.png":
+{
+	"frame": {"x":1832,"y":435,"w":89,"h":169},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":89,"h":169},
+	"sourceSize": {"w":89,"h":171}
+},
+"terrorist/3/walk/3_terrorist_3_Walk_001.png":
+{
+	"frame": {"x":1653,"y":829,"w":86,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":1,"w":86,"h":170},
+	"sourceSize": {"w":89,"h":171}
+},
+"terrorist/3/walk/3_terrorist_3_Walk_002.png":
+{
+	"frame": {"x":1013,"y":518,"w":82,"h":171},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":82,"h":171},
+	"sourceSize": {"w":89,"h":171}
+},
+"terrorist/3/walk/3_terrorist_3_Walk_003.png":
+{
+	"frame": {"x":1013,"y":602,"w":80,"h":171},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":80,"h":171},
+	"sourceSize": {"w":89,"h":171}
+},
+"terrorist/3/walk/3_terrorist_3_Walk_004.png":
+{
+	"frame": {"x":1,"y":677,"w":80,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":1,"w":80,"h":170},
+	"sourceSize": {"w":89,"h":171}
+},
+"terrorist/3/walk/3_terrorist_3_Walk_005.png":
+{
+	"frame": {"x":675,"y":511,"w":80,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":1,"w":80,"h":170},
+	"sourceSize": {"w":89,"h":171}
+},
+"terrorist/3/walk/3_terrorist_3_Walk_006.png":
+{
+	"frame": {"x":503,"y":593,"w":80,"h":170},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":1,"w":80,"h":170},
+	"sourceSize": {"w":89,"h":171}
+},
+"terrorist/3/walk/3_terrorist_3_Walk_007.png":
+{
+	"frame": {"x":503,"y":865,"w":80,"h":169},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":2,"w":80,"h":169},
+	"sourceSize": {"w":89,"h":171}
+}},
+"animations": {
+	"police/1/attack/1_police_attack_Attack_000": ["police/1/attack/1_police_attack_Attack_000_000.png","police/1/attack/1_police_attack_Attack_000_001.png","police/1/attack/1_police_attack_Attack_000_002.png","police/1/attack/1_police_attack_Attack_000_003.png","police/1/attack/1_police_attack_Attack_000_004.png","police/1/attack/1_police_attack_Attack_000_005.png"],
+	"police/1/hurt/1_police_Hurt": ["police/1/hurt/1_police_Hurt_000.png","police/1/hurt/1_police_Hurt_001.png","police/1/hurt/1_police_Hurt_002.png","police/1/hurt/1_police_Hurt_003.png","police/1/hurt/1_police_Hurt_004.png","police/1/hurt/1_police_Hurt_005.png","police/1/hurt/1_police_Hurt_006.png","police/1/hurt/1_police_Hurt_007.png","police/1/hurt/1_police_Hurt_008.png"],
+	"police/1/idle/1_police_Idle": ["police/1/idle/1_police_Idle_000.png","police/1/idle/1_police_Idle_001.png","police/1/idle/1_police_Idle_002.png","police/1/idle/1_police_Idle_003.png","police/1/idle/1_police_Idle_004.png","police/1/idle/1_police_Idle_005.png","police/1/idle/1_police_Idle_006.png","police/1/idle/1_police_Idle_007.png"],
+	"police/1/jump/1_police_Jump": ["police/1/jump/1_police_Jump_000.png","police/1/jump/1_police_Jump_001.png","police/1/jump/1_police_Jump_002.png","police/1/jump/1_police_Jump_003.png","police/1/jump/1_police_Jump_004.png","police/1/jump/1_police_Jump_005.png","police/1/jump/1_police_Jump_006.png","police/1/jump/1_police_Jump_007.png"],
+	"police/1/run/1_police_Run": ["police/1/run/1_police_Run_000.png","police/1/run/1_police_Run_001.png","police/1/run/1_police_Run_002.png","police/1/run/1_police_Run_003.png","police/1/run/1_police_Run_004.png","police/1/run/1_police_Run_005.png"],
+	"police/1/walk/1_police_Walk": ["police/1/walk/1_police_Walk_000.png","police/1/walk/1_police_Walk_001.png","police/1/walk/1_police_Walk_002.png","police/1/walk/1_police_Walk_003.png","police/1/walk/1_police_Walk_004.png","police/1/walk/1_police_Walk_005.png","police/1/walk/1_police_Walk_006.png","police/1/walk/1_police_Walk_007.png"],
+	"police/2/attack/2_police_attack_Attack_000": ["police/2/attack/2_police_attack_Attack_000_000.png","police/2/attack/2_police_attack_Attack_000_001.png","police/2/attack/2_police_attack_Attack_000_002.png","police/2/attack/2_police_attack_Attack_000_003.png","police/2/attack/2_police_attack_Attack_000_004.png","police/2/attack/2_police_attack_Attack_000_005.png"],
+	"police/2/hurt/2_police_Hurt": ["police/2/hurt/2_police_Hurt_000.png","police/2/hurt/2_police_Hurt_001.png","police/2/hurt/2_police_Hurt_002.png","police/2/hurt/2_police_Hurt_003.png","police/2/hurt/2_police_Hurt_004.png","police/2/hurt/2_police_Hurt_005.png","police/2/hurt/2_police_Hurt_006.png","police/2/hurt/2_police_Hurt_007.png","police/2/hurt/2_police_Hurt_008.png"],
+	"police/2/idle/2_police_Idle": ["police/2/idle/2_police_Idle_000.png","police/2/idle/2_police_Idle_001.png","police/2/idle/2_police_Idle_002.png","police/2/idle/2_police_Idle_003.png","police/2/idle/2_police_Idle_004.png","police/2/idle/2_police_Idle_005.png","police/2/idle/2_police_Idle_006.png","police/2/idle/2_police_Idle_007.png"],
+	"police/2/jump/2_police_Jump": ["police/2/jump/2_police_Jump_000.png","police/2/jump/2_police_Jump_001.png","police/2/jump/2_police_Jump_002.png","police/2/jump/2_police_Jump_003.png","police/2/jump/2_police_Jump_004.png","police/2/jump/2_police_Jump_005.png","police/2/jump/2_police_Jump_006.png","police/2/jump/2_police_Jump_007.png"],
+	"police/2/run/2_police_Run": ["police/2/run/2_police_Run_000.png","police/2/run/2_police_Run_001.png","police/2/run/2_police_Run_002.png","police/2/run/2_police_Run_003.png","police/2/run/2_police_Run_004.png","police/2/run/2_police_Run_005.png"],
+	"police/2/walk/2_police_Walk": ["police/2/walk/2_police_Walk_000.png","police/2/walk/2_police_Walk_001.png","police/2/walk/2_police_Walk_002.png","police/2/walk/2_police_Walk_003.png","police/2/walk/2_police_Walk_004.png","police/2/walk/2_police_Walk_005.png","police/2/walk/2_police_Walk_006.png","police/2/walk/2_police_Walk_007.png"],
+	"police/3/attack/3_police_attack_Attack": ["police/3/attack/3_police_attack_Attack_000.png","police/3/attack/3_police_attack_Attack_001.png","police/3/attack/3_police_attack_Attack_002.png","police/3/attack/3_police_attack_Attack_003.png","police/3/attack/3_police_attack_Attack_004.png","police/3/attack/3_police_attack_Attack_005.png"],
+	"police/3/hurt/3_police_Hurt": ["police/3/hurt/3_police_Hurt_000.png","police/3/hurt/3_police_Hurt_001.png","police/3/hurt/3_police_Hurt_002.png","police/3/hurt/3_police_Hurt_003.png","police/3/hurt/3_police_Hurt_004.png","police/3/hurt/3_police_Hurt_005.png","police/3/hurt/3_police_Hurt_006.png","police/3/hurt/3_police_Hurt_007.png","police/3/hurt/3_police_Hurt_008.png"],
+	"police/3/idle/3_police_Idle": ["police/3/idle/3_police_Idle_000.png","police/3/idle/3_police_Idle_001.png","police/3/idle/3_police_Idle_002.png","police/3/idle/3_police_Idle_003.png","police/3/idle/3_police_Idle_004.png","police/3/idle/3_police_Idle_005.png","police/3/idle/3_police_Idle_006.png","police/3/idle/3_police_Idle_007.png"],
+	"police/3/jump/3_police_Jump": ["police/3/jump/3_police_Jump_000.png","police/3/jump/3_police_Jump_001.png","police/3/jump/3_police_Jump_002.png","police/3/jump/3_police_Jump_003.png","police/3/jump/3_police_Jump_004.png","police/3/jump/3_police_Jump_005.png","police/3/jump/3_police_Jump_006.png","police/3/jump/3_police_Jump_007.png"],
+	"police/3/run/3_police_Run": ["police/3/run/3_police_Run_000.png","police/3/run/3_police_Run_001.png","police/3/run/3_police_Run_002.png","police/3/run/3_police_Run_003.png","police/3/run/3_police_Run_004.png","police/3/run/3_police_Run_005.png"],
+	"police/3/walk/3_police_Walk": ["police/3/walk/3_police_Walk_000.png","police/3/walk/3_police_Walk_001.png","police/3/walk/3_police_Walk_002.png","police/3/walk/3_police_Walk_003.png","police/3/walk/3_police_Walk_004.png","police/3/walk/3_police_Walk_005.png","police/3/walk/3_police_Walk_006.png","police/3/walk/3_police_Walk_007.png"],
+	"terrorist/1/attack/1_terrorist_1_Attack1": ["terrorist/1/attack/1_terrorist_1_Attack1_000.png","terrorist/1/attack/1_terrorist_1_Attack1_001.png","terrorist/1/attack/1_terrorist_1_Attack1_002.png","terrorist/1/attack/1_terrorist_1_Attack1_003.png","terrorist/1/attack/1_terrorist_1_Attack1_004.png","terrorist/1/attack/1_terrorist_1_Attack1_005.png"],
+	"terrorist/1/hurt/1_terrorist_1_Hurt": ["terrorist/1/hurt/1_terrorist_1_Hurt_000.png","terrorist/1/hurt/1_terrorist_1_Hurt_001.png","terrorist/1/hurt/1_terrorist_1_Hurt_002.png","terrorist/1/hurt/1_terrorist_1_Hurt_003.png","terrorist/1/hurt/1_terrorist_1_Hurt_004.png","terrorist/1/hurt/1_terrorist_1_Hurt_005.png","terrorist/1/hurt/1_terrorist_1_Hurt_006.png","terrorist/1/hurt/1_terrorist_1_Hurt_007.png","terrorist/1/hurt/1_terrorist_1_Hurt_008.png"],
+	"terrorist/1/idle/1_terrorist_1_Idle": ["terrorist/1/idle/1_terrorist_1_Idle_000.png","terrorist/1/idle/1_terrorist_1_Idle_001.png","terrorist/1/idle/1_terrorist_1_Idle_002.png","terrorist/1/idle/1_terrorist_1_Idle_003.png","terrorist/1/idle/1_terrorist_1_Idle_004.png","terrorist/1/idle/1_terrorist_1_Idle_005.png","terrorist/1/idle/1_terrorist_1_Idle_006.png","terrorist/1/idle/1_terrorist_1_Idle_007.png"],
+	"terrorist/1/jump/1_terrorist_1_Jump": ["terrorist/1/jump/1_terrorist_1_Jump_000.png","terrorist/1/jump/1_terrorist_1_Jump_001.png","terrorist/1/jump/1_terrorist_1_Jump_002.png","terrorist/1/jump/1_terrorist_1_Jump_003.png","terrorist/1/jump/1_terrorist_1_Jump_004.png","terrorist/1/jump/1_terrorist_1_Jump_005.png","terrorist/1/jump/1_terrorist_1_Jump_006.png","terrorist/1/jump/1_terrorist_1_Jump_007.png"],
+	"terrorist/1/run/1_terrorist_1_Run": ["terrorist/1/run/1_terrorist_1_Run_000.png","terrorist/1/run/1_terrorist_1_Run_001.png","terrorist/1/run/1_terrorist_1_Run_002.png","terrorist/1/run/1_terrorist_1_Run_003.png","terrorist/1/run/1_terrorist_1_Run_004.png","terrorist/1/run/1_terrorist_1_Run_005.png"],
+	"terrorist/1/walk/1_terrorist_1_Walk": ["terrorist/1/walk/1_terrorist_1_Walk_000.png","terrorist/1/walk/1_terrorist_1_Walk_001.png","terrorist/1/walk/1_terrorist_1_Walk_002.png","terrorist/1/walk/1_terrorist_1_Walk_003.png","terrorist/1/walk/1_terrorist_1_Walk_004.png","terrorist/1/walk/1_terrorist_1_Walk_005.png","terrorist/1/walk/1_terrorist_1_Walk_006.png","terrorist/1/walk/1_terrorist_1_Walk_007.png"],
+	"terrorist/2/attack/2_terrorist_2_Attack1": ["terrorist/2/attack/2_terrorist_2_Attack1_000.png","terrorist/2/attack/2_terrorist_2_Attack1_001.png","terrorist/2/attack/2_terrorist_2_Attack1_002.png","terrorist/2/attack/2_terrorist_2_Attack1_003.png","terrorist/2/attack/2_terrorist_2_Attack1_004.png","terrorist/2/attack/2_terrorist_2_Attack1_005.png"],
+	"terrorist/2/hurt/2_terrorist_2_Hurt": ["terrorist/2/hurt/2_terrorist_2_Hurt_000.png","terrorist/2/hurt/2_terrorist_2_Hurt_001.png","terrorist/2/hurt/2_terrorist_2_Hurt_002.png","terrorist/2/hurt/2_terrorist_2_Hurt_003.png","terrorist/2/hurt/2_terrorist_2_Hurt_004.png","terrorist/2/hurt/2_terrorist_2_Hurt_005.png","terrorist/2/hurt/2_terrorist_2_Hurt_006.png","terrorist/2/hurt/2_terrorist_2_Hurt_007.png","terrorist/2/hurt/2_terrorist_2_Hurt_008.png"],
+	"terrorist/2/idle/2_terrorist_2_Idle": ["terrorist/2/idle/2_terrorist_2_Idle_000.png","terrorist/2/idle/2_terrorist_2_Idle_001.png","terrorist/2/idle/2_terrorist_2_Idle_002.png","terrorist/2/idle/2_terrorist_2_Idle_003.png","terrorist/2/idle/2_terrorist_2_Idle_004.png","terrorist/2/idle/2_terrorist_2_Idle_005.png","terrorist/2/idle/2_terrorist_2_Idle_006.png","terrorist/2/idle/2_terrorist_2_Idle_007.png"],
+	"terrorist/2/jump/2_terrorist_2_Jump": ["terrorist/2/jump/2_terrorist_2_Jump_000.png","terrorist/2/jump/2_terrorist_2_Jump_001.png","terrorist/2/jump/2_terrorist_2_Jump_002.png","terrorist/2/jump/2_terrorist_2_Jump_003.png","terrorist/2/jump/2_terrorist_2_Jump_004.png","terrorist/2/jump/2_terrorist_2_Jump_005.png","terrorist/2/jump/2_terrorist_2_Jump_006.png","terrorist/2/jump/2_terrorist_2_Jump_007.png"],
+	"terrorist/2/run/2_terrorist_2_Run": ["terrorist/2/run/2_terrorist_2_Run_000.png","terrorist/2/run/2_terrorist_2_Run_001.png","terrorist/2/run/2_terrorist_2_Run_002.png","terrorist/2/run/2_terrorist_2_Run_003.png","terrorist/2/run/2_terrorist_2_Run_004.png","terrorist/2/run/2_terrorist_2_Run_005.png"],
+	"terrorist/2/walk/2_terrorist_2_Walk": ["terrorist/2/walk/2_terrorist_2_Walk_000.png","terrorist/2/walk/2_terrorist_2_Walk_001.png","terrorist/2/walk/2_terrorist_2_Walk_002.png","terrorist/2/walk/2_terrorist_2_Walk_003.png","terrorist/2/walk/2_terrorist_2_Walk_004.png","terrorist/2/walk/2_terrorist_2_Walk_005.png","terrorist/2/walk/2_terrorist_2_Walk_006.png","terrorist/2/walk/2_terrorist_2_Walk_007.png"],
+	"terrorist/3/attack/3_terrorist_3_Attack1": ["terrorist/3/attack/3_terrorist_3_Attack1_000.png","terrorist/3/attack/3_terrorist_3_Attack1_001.png","terrorist/3/attack/3_terrorist_3_Attack1_002.png","terrorist/3/attack/3_terrorist_3_Attack1_003.png","terrorist/3/attack/3_terrorist_3_Attack1_004.png","terrorist/3/attack/3_terrorist_3_Attack1_005.png"],
+	"terrorist/3/hurt/3_terrorist_3_Hurt": ["terrorist/3/hurt/3_terrorist_3_Hurt_000.png","terrorist/3/hurt/3_terrorist_3_Hurt_001.png","terrorist/3/hurt/3_terrorist_3_Hurt_002.png","terrorist/3/hurt/3_terrorist_3_Hurt_003.png","terrorist/3/hurt/3_terrorist_3_Hurt_004.png","terrorist/3/hurt/3_terrorist_3_Hurt_005.png","terrorist/3/hurt/3_terrorist_3_Hurt_006.png","terrorist/3/hurt/3_terrorist_3_Hurt_007.png","terrorist/3/hurt/3_terrorist_3_Hurt_008.png"],
+	"terrorist/3/idle/3_terrorist_3_Idle": ["terrorist/3/idle/3_terrorist_3_Idle_000.png","terrorist/3/idle/3_terrorist_3_Idle_001.png","terrorist/3/idle/3_terrorist_3_Idle_002.png","terrorist/3/idle/3_terrorist_3_Idle_003.png","terrorist/3/idle/3_terrorist_3_Idle_004.png","terrorist/3/idle/3_terrorist_3_Idle_005.png","terrorist/3/idle/3_terrorist_3_Idle_006.png","terrorist/3/idle/3_terrorist_3_Idle_007.png"],
+	"terrorist/3/jump/3_terrorist_3_Jump": ["terrorist/3/jump/3_terrorist_3_Jump_000.png","terrorist/3/jump/3_terrorist_3_Jump_001.png","terrorist/3/jump/3_terrorist_3_Jump_002.png","terrorist/3/jump/3_terrorist_3_Jump_003.png","terrorist/3/jump/3_terrorist_3_Jump_004.png","terrorist/3/jump/3_terrorist_3_Jump_005.png","terrorist/3/jump/3_terrorist_3_Jump_006.png","terrorist/3/jump/3_terrorist_3_Jump_007.png"],
+	"terrorist/3/run/3_terrorist_3_Run": ["terrorist/3/run/3_terrorist_3_Run_000.png","terrorist/3/run/3_terrorist_3_Run_001.png","terrorist/3/run/3_terrorist_3_Run_002.png","terrorist/3/run/3_terrorist_3_Run_003.png","terrorist/3/run/3_terrorist_3_Run_004.png","terrorist/3/run/3_terrorist_3_Run_005.png"],
+	"terrorist/3/walk/3_terrorist_3_Walk": ["terrorist/3/walk/3_terrorist_3_Walk_000.png","terrorist/3/walk/3_terrorist_3_Walk_001.png","terrorist/3/walk/3_terrorist_3_Walk_002.png","terrorist/3/walk/3_terrorist_3_Walk_003.png","terrorist/3/walk/3_terrorist_3_Walk_004.png","terrorist/3/walk/3_terrorist_3_Walk_005.png","terrorist/3/walk/3_terrorist_3_Walk_006.png","terrorist/3/walk/3_terrorist_3_Walk_007.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.1",
+	"image": "PoliceAndTerrorist.png",
+	"format": "RGBA8888",
+	"size": {"w":2040,"h":2047},
+	"scale": "0.134",
+	"smartupdate": "$TexturePacker:SmartUpdate:db903e927bdc618000b22c1882604ae5:b3189c00c7e383d329f3d72380a0b0d4:e9df1d67901f355a6ef163bfb8565533$"
+}
+}

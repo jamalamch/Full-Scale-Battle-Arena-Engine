@@ -1,5 +1,5 @@
 import { System } from '../base/system';
-import { World } from '../world';
+import { World } from '../base/world';
 import { Position } from '../components/position';
 import { Velocity } from '../components/velocity';
 
@@ -16,26 +16,26 @@ export class MovementSystem extends System {
             if (pos && vel) {
                 pos.x += vel.vx * delta * 60;
                 pos.y += vel.vy * delta * 60;
-
-                if (pos.y < 0) {
-                    pos.y = 0;
+                const bound = this.world.bound;
+                if (pos.y < bound.minY) {
+                    pos.y = bound.minY;
                     vel.vy = Math.abs(vel.vy);
                 }
                 // Bounce off bottom
-                if (pos.y > this.world.height) {
-                    pos.y = this.world.height;
+                if (pos.y > bound.maxY) {
+                    pos.y = bound.maxY;
                     vel.vy = -1 * Math.abs(vel.vx);
                 }
     
                 // Bounce off sides
-                if (pos.x < 0) {
-                    pos.x = 0;
+                if (pos.x < bound.minX) {
+                    pos.x = bound.minX;
                     vel.vx = Math.abs(vel.vx);
                 }
 
                 // Bounce off sides
-                if (pos.x > this.world.width) {
-                    pos.x = this.world.width;
+                if (pos.x > bound.maxX) {
+                    pos.x = bound.maxX;
                     vel.vx = -1 * Math.abs(vel.vx);
                 }
             }

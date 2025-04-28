@@ -1,9 +1,17 @@
 import { Entity } from './entity';
 import { System } from './system';
 
+export interface Bound {
+    minX: number;
+    maxX: number;
+    minY: number;
+    maxY: number;
+}
+
 export class World {
+    bound: Bound;
     
-    constructor(public width: number,public height: number) {
+    constructor() {
     }
 
     entities: Entity[] = [];

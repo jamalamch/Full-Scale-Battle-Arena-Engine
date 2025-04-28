@@ -20,7 +20,8 @@ export class CollisionSystem extends System {
             for (const target of targets) {
                 const targetPos = target.getComponent(Position);
                 const health = target.getComponent(Health);
-                if (!targetPos || !health) continue;
+                if (!targetPos || !health) 
+                    continue;
 
                 const dx = bulletPos.x - targetPos.x;
                 const dy = bulletPos.y - targetPos.y;

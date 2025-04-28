@@ -1,11 +1,13 @@
 import { Container, Graphics } from 'pixi.js';
 import { System } from '../base/system';
 import { Health } from '../components/health';
-import { World } from '../world';
+import { World } from '../base/world';
 import { Bullet } from '../components/bullet';
 import { Position } from '../components/position';
+import { SpriteRenderer } from '../components/spriteRenderer';
 
 export class RenderSystem extends System {
+
     private sprites: Map<number, Container> = new Map();
 
     constructor(private world: World, private stage: Container) {
@@ -20,15 +22,12 @@ export class RenderSystem extends System {
                 // Create container for sprite + HP bar
                 container = new Container();
 
-                const graphic = new Graphics();
-                if (entity.getComponent(Bullet)) {
-                    graphic.circle(0, 0, 4);
-                    graphic.fill(0xff0000); // Red for bullets
-                } else {
-                    graphic.circle(0, 0, 10);
-                    graphic.fill(0xffffff); // White for bots
+                const spriteRender = entity.getComponent(SpriteRenderer);
+
+                if(spriteRender){
+                    container.addChild(spriteRender.sprite);
+                    container['sprite'] = spriteRender.sprite; // Custom property
                 }
-                container.addChild(graphic);
 
                 // Add HP bar only if entity has health
                 if (entity.getComponent(Health)) {

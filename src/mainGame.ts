@@ -2,7 +2,6 @@ import { Application, Assets, Point } from "pixi.js";
 import Sounds from "./sounds";
 import ParticleFXManager from "./effect/particleFxManager";
 import UiGame from "./ui/uiGame";
-import { World } from './ecs/base/world';
 import ArenaWord from "./ecs/arenaWord";
 
 type ResizeHandler = () => void;
@@ -65,7 +64,9 @@ export default class MainGame {
 
         document.body.appendChild(this.appPIXI.canvas);
 
-        await Assets.load("./images/images.json")
+        await Assets.load("./images/images.json");
+        await Assets.load("./images/policeAndTerrorist.json");
+        await Assets.load("./images/levelSprites.json");
 
         this.effectManager = new ParticleFXManager(this.appPIXI);
 
@@ -97,7 +98,7 @@ export default class MainGame {
     async startLevel(): Promise<void> {
         // ECS World
         this.arenaWorld = new ArenaWord(this);
-
+        await this.arenaWorld.init();
         this.startTime = performance.now();
         this.appPIXI.stage.addChild(this.arenaWorld.mainContainer);
         this.gameCanUpdate = true;
@@ -241,7 +242,7 @@ export default class MainGame {
 
     loop(deltaTime) {
         if (this.gameCanUpdate) {
-            const deltaSeconds = deltaTime / this.appPIXI.ticker.maxFPS;
+            const deltaSeconds = deltaTime / 60
             this.arenaWorld.update(deltaSeconds);
         }
         this.effectManager.update(deltaTime);

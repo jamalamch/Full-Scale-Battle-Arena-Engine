@@ -4,23 +4,34 @@ import { FiringSystem } from './systems/firingSystem';
 import { RenderSystem } from './systems/renderSystem';
 import { createDummyEntity } from './entities/dummyEntity';
 import { BulletSystem } from "./systems/bulletSystem";
-import { Container } from "pixi.js";
+import { Container, Graphics } from "pixi.js";
 import MainGame from "../mainGame";
+import Map from "./map";
 
 export default class ArenaWord extends World {
 
     mainContainer:Container;
     mainGame:MainGame;
+    map:Map;
 
-    timeToEndLevel:number = 60*20.1;//
-    currentTimer:number;
-    tmpSteepTimer:number;
+    readonly timeToEndMatch:number = 60*20.1;//20min match
+    
+    currentTimer:number = 0;
+    tmpSteepTimer:number = 0;
+
+    mapIndex:number = 1;
 
     constructor(mainGame:MainGame){
-        super(1000,1000);
+        super();
         this.mainGame = mainGame;
         // Add Systems
         this.mainContainer = new Container();
+        this.map = new Map(this.mainContainer, this.mapIndex);
+    }
+
+    async init(){
+        await this.map.init();
+        this.bound = this.map.getBound();
 
         this.addSystem(new MovementSystem(this));
         this.addSystem(new RenderSystem(this, this.mainContainer));
@@ -31,6 +42,12 @@ export default class ArenaWord extends World {
         for (let i = 0; i < 10; i++) {
             this.addEntity(createDummyEntity());
         }
+
+        this.currentTimer = this.timeToEndMatch;
+        this.mainGame.onResizeHandlers.push(()=>{
+            this.reposition();
+        }); 
+        this.reposition();
     }
 
     override update(delta: number): void {
@@ -54,5 +71,10 @@ export default class ArenaWord extends World {
             // Update text
             this.mainGame.uiGame.timerText.text = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
         }
+    }
+
+    reposition(){
+        this.mainContainer.x = (this.mainGame.screenWidth) / 2;
+        this.mainContainer.y = (this.mainGame.screenHeight) / 2;
     }
 }
