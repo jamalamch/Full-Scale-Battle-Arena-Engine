@@ -5,6 +5,7 @@ import { World } from '../base/world';
 import { Bullet } from '../components/bullet';
 import { Position } from '../components/position';
 import { SpriteRenderer } from '../components/spriteRenderer';
+import { SpritesAnimationRenderer } from '../components/spritesAnimationRenderer';
 
 export class RenderSystem extends System {
 
@@ -23,10 +24,18 @@ export class RenderSystem extends System {
                 container = new Container();
 
                 const spriteRender = entity.getComponent(SpriteRenderer);
-
+                
                 if(spriteRender){
                     container.addChild(spriteRender.sprite);
                     container['sprite'] = spriteRender.sprite; // Custom property
+                }
+                else
+                {
+                    const spriteRenderanimation = entity.getComponent(SpritesAnimationRenderer);
+                    if(spriteRenderanimation){
+                        container.addChild(spriteRenderanimation.sprite);
+                        container['sprite'] = spriteRenderanimation.sprite; // Custom property
+                    }
                 }
 
                 // Add HP bar only if entity has health

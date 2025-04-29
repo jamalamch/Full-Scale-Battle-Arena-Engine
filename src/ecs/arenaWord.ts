@@ -7,6 +7,7 @@ import { BulletSystem } from "./systems/bulletSystem";
 import { Container, Graphics } from "pixi.js";
 import MainGame from "../mainGame";
 import Map from "./map";
+import { createPlayerEntity } from "./entities/playerEntity";
 
 export default class ArenaWord extends World {
 
@@ -42,7 +43,7 @@ export default class ArenaWord extends World {
         for (let i = 0; i < 10; i++) {
             this.addEntity(createDummyEntity());
         }
-
+        this.addEntity(createPlayerEntity());
         this.currentTimer = this.timeToEndMatch;
         this.mainGame.onResizeHandlers.push(()=>{
             this.reposition();

@@ -1,5 +1,4 @@
-import { Component } from '../base/component';
-import * as PIXI from 'pixi.js';
+import { AnimatedSprite, Assets } from 'pixi.js';
 import { SpriteRenderer } from './spriteRenderer';
 
 export class SpritesAnimationRenderer extends SpriteRenderer {
@@ -9,8 +8,8 @@ export class SpritesAnimationRenderer extends SpriteRenderer {
     constructor(textures: PIXI.Texture[], public options?: { anchor?: number , scale?: number}) {
         super(null,options);
         // Animated Sprite
-        this.spriteAnimation = new PIXI.AnimatedSprite(textures);
-        this.spriteAnimation.animationSpeed = 0.1; // default
+        this.spriteAnimation = new AnimatedSprite(textures);
+        this.spriteAnimation.animationSpeed = 0.5; // default
         this.spriteAnimation.play();
         this.sprite = this.spriteAnimation;
         
