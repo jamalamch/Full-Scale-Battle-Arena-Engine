@@ -8,6 +8,11 @@ import { Container, Graphics } from "pixi.js";
 import MainGame from "../mainGame";
 import Map from "./map";
 import { createPlayerEntity } from "./entities/playerEntity";
+import { Entity } from "./base/entity";
+import { Collider } from "./components/collider";
+import { Position } from "./components/position";
+import { CollisionSystem } from "./systems/collisionSystem";
+import { createEnemyEntity } from "./entities/enemyEntity";
 
 export default class ArenaWord extends World {
 
@@ -31,17 +36,37 @@ export default class ArenaWord extends World {
     }
 
     async init(){
-        await this.map.init();
+        
+        const mapData = await this.map.init();
         this.bound = this.map.getBound();
+        const mapScale = 100 * this.map.scale.x;
+        mapData.colliders.forEach(colliderData => {
+            const entity = new Entity();
+        
+            entity.addComponent(new Position(colliderData.x*mapScale, -colliderData.y*mapScale));
+            entity.addComponent(new Collider(
+                colliderData.z* mapScale,
+                colliderData.w* mapScale,
+                -colliderData.z* mapScale/2,
+                -colliderData.w* mapScale/2,
+                false
+            ));
+        
+            // Optional: add a debug sprite or invisible sprite renderer
+            // entity.addComponent(new SpriteRenderer(wallTexture));
+        
+            this.addEntity(entity);
+        })
 
         this.addSystem(new MovementSystem(this));
         this.addSystem(new RenderSystem(this, this.mainContainer));
         this.addSystem(new BulletSystem(this));
         this.addSystem(new FiringSystem(this));
+        this.addSystem(new CollisionSystem(this));
 
         // Create some dummy entities
         for (let i = 0; i < 10; i++) {
-            this.addEntity(createDummyEntity());
+            this.addEntity(createEnemyEntity(Math.floor(Math.random() * 3) + 1));
         }
         this.addEntity(createPlayerEntity());
         this.currentTimer = this.timeToEndMatch;

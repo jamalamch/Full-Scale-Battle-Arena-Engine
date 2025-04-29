@@ -242,7 +242,7 @@ export default class MainGame {
 
     loop(deltaTime) {
         if (this.gameCanUpdate) {
-            const deltaSeconds = deltaTime / 60
+            const deltaSeconds = deltaTime / 60;
             this.arenaWorld.update(deltaSeconds);
         }
         this.effectManager.update(deltaTime);

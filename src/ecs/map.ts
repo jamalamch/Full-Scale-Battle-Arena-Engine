@@ -14,7 +14,7 @@ export interface ColliderData {
     w:number;
 }
 
-export interface SpriteDataList {
+export interface MapDataList {
     sprites: SpriteData[];
     colliders: ColliderData[];
 }
@@ -38,8 +38,8 @@ export default class Map extends Container{
         parent.addChild(this);
     }
 
-    async init(){
-        const points: SpriteDataList = await this.loadMap(this.map);
+    async init() : Promise<MapDataList>{
+        const mapData: MapDataList = await this.loadMap(this.map);
 
         this.bgSprite = new Sprite(Texture.from('BG2.png'));
         this.bgSprite.scale = 5;
@@ -47,7 +47,7 @@ export default class Map extends Container{
         this.addChild(this.bgSprite);
         this.minY =this.minX = 999999;
         this.maxY =this.maxX = -999999;
-        points.sprites.forEach(sprite => {
+        mapData.sprites.forEach(sprite => {
             const spriteImage: Sprite = new Sprite(Texture.from(sprite.name + '.png'));
             spriteImage.anchor = 0.5;
             spriteImage.position.x = sprite.position.x * 100;
@@ -61,13 +61,16 @@ export default class Map extends Container{
             this.minY = Math.min(this.minY, spriteImage.position.y - spriteImage.height / 2);
             this.maxY = Math.max(this.maxY, spriteImage.position.y + spriteImage.height / 2);
         });
+
         this.maxY += 200;
         this.minY -= 100;
 
         this.addBorderWord();
+
+        return mapData;
     }
 
-    async loadMap(index: number): Promise<SpriteDataList> {
+    async loadMap(index: number): Promise<MapDataList> {
         const url = `./maps/map${index}.json`;
         const retries = 3;
         const delay = 300; // 3 seconds
@@ -79,7 +82,7 @@ export default class Map extends Container{
                 if (!response.ok) {
                     throw new Error(`HTTP ${response.status}`);
                 } else {
-                    const points: SpriteDataList = await response.json();
+                    const points: MapDataList = await response.json();
                     return points;
                 }
             } catch (error: any) {

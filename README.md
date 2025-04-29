@@ -40,7 +40,7 @@ A modular, real-time 2D battle arena framework built using [PIXI.js](https://pix
 git clone [https://github.com/yourname/pixi-battle-ecs.git](https://github.com/jamalamch/Full-Scale-Battle-Arena-Engine.git)
 cd pixi-battle-ecs
 npm install
-npm run dev
+npx vite
 ```
 🧩 Project Structure
 graphql
@@ -199,3 +199,80 @@ function createWall(x: number, y: number, width: number, height: number) {
     world.addEntity(entity);
 }
 ```
+
+## 🔧 Performance Considerations
+
+This project uses PIXI.js alongside a custom Entity-Component-System (ECS) architecture. As the game scales in complexity and entity count, several performance optimizations should be kept in mind to ensure smooth gameplay.
+
+### 🧠 Core Architecture
+
+- **Efficient ECS Design**
+  - Avoid nested loops through all entities. Instead, filter entities by relevant component types.
+  - Use system-specific entity caches or queries to reduce redundant checks.
+  - Consider implementing component pooling to reduce memory allocation and garbage collection overhead.
+
+- **Separation of Concerns**
+  - Keep the update loop for game logic (physics, AI, etc.) separate from the rendering loop.
+  - Use a **fixed timestep** for game logic and a **variable delta** for rendering interpolation.
+
+---
+
+### 🚀 Rendering Optimizations (PIXI.js)
+
+- **Texture Batching**
+  - Prefer `Sprite` and `AnimatedSprite` over `Graphics` for high-performance rendering.
+  - Combine assets into texture atlases (sprite sheets) to minimize draw calls and GPU state changes.
+
+- **Display Object Management**
+  - Avoid unnecessary add/remove operations on the stage—reuse and hide objects instead of recreating them.
+  - Limit nesting depth in `Container` hierarchies for better traversal speed.
+
+- **Particle Effects**
+  - Use a custom particle system or libraries like `pixi-particles` with recycling to handle effects like smoke, explosions, and trails efficiently.
+
+---
+
+### 📦 Data and Logic Efficiency
+
+- **Spatial Partitioning**
+  - Use a quad tree or grid-based system for efficient collision detection among many entities.
+  - This drastically reduces the number of pairwise checks from `O(n^2)` to near `O(n)` in practice.
+
+- **Lazy Evaluation**
+  - Only update/render what's visible or within camera bounds.
+  - Culling off-screen entities can improve performance significantly.
+
+---
+
+### 🛠 Debug Tools and Development
+
+- Disable or gate debug overlays, logs, and outlines during production to avoid unnecessary CPU/GPU overhead.
+- Use profiling tools (like Chrome DevTools, Pixi.js dev tools) to track performance bottlenecks in both logic and rendering pipelines.
+
+---
+
+Keeping these principles in mind will help maintain smooth gameplay even as your battle arena grows more complex.
+
+## 🧩 Technical & Design Challenges Tackled
+
+### 1. Custom ECS Architecture
+Designing an Entity-Component-System (ECS) framework from scratch in TypeScript required careful consideration of performance, scalability, and flexibility. A major challenge was creating a system that allowed dynamic component composition without sacrificing iteration speed across systems.
+
+### 2. Real-Time Collision Resolution
+Implementing collision detection and resolution without relying on a physics engine involved:
+- Axis-Aligned Bounding Box (AABB) overlap detection
+- Separation logic that pushes entities out of each other
+- Handling dynamic objects and static colliders with minimal performance cost
+
+### 3. Sprite Animation System
+Creating a reusable `SpriteRenderer` and `SpriteAnimator` system required parsing sprite sheets (e.g. from Unity exports) and syncing frame updates based on delta timing. Integrating it cleanly into the ECS while keeping rendering decoupled from logic was a key goal.
+
+### 4. Particle System Integration
+Designing a modular particle effect system for muzzle flashes, explosions, and smoke trails—while minimizing object creation—was tackled with object pooling and decoupling visuals from logic entities.
+
+### 5. JSON-Based Map Import from Unity
+Unity-exported map data (colliders, spawn points, etc.) in JSON format had to be parsed and translated into ECS entities. Ensuring spatial accuracy between Unity’s coordinate system and the game’s coordinate logic in Pixi.js required adjustment and validation tools.
+
+## 🎥 Demo
+
+[Watch Demo on YouTube](https://youtu.be/I0vpp1G_O8I)

@@ -6,6 +6,7 @@ import { Bullet } from '../components/bullet';
 import { Position } from '../components/position';
 import { SpriteRenderer } from '../components/spriteRenderer';
 import { SpritesAnimationRenderer } from '../components/spritesAnimationRenderer';
+import { Collider } from '../components/collider';
 
 export class RenderSystem extends System {
 
@@ -44,6 +45,20 @@ export class RenderSystem extends System {
                     hpBar.y = -15; // Position above the bot
                     container.addChild(hpBar);
                     container['hpBar'] = hpBar; // Custom property
+                }
+
+                const colliderDebug = entity.getComponent(Collider);
+                if (colliderDebug) {
+                    const pos = entity.getComponent(Position);
+                    if(pos){                        
+                        const outline = new Graphics();
+                        outline.rect(colliderDebug.offsetX, colliderDebug.offsetY, colliderDebug.width, colliderDebug.height);
+                        outline.stroke({
+                            color : 0xff0000,
+                            width : 1
+                        });
+                        container.addChild(outline);
+                    }
                 }
 
                 this.stage.addChild(container);
