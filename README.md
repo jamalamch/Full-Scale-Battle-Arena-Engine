@@ -275,4 +275,4 @@ Unity-exported map data (colliders, spawn points, etc.) in JSON format had to be
 
 ## 🎥 Demo
 
-[Watch Demo on YouTube](https://youtu.be/I0vpp1G_O8I)
+[Watch Demo on YouTube](https://youtu.be/4s6wRJitn-I)

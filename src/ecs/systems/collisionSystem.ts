@@ -4,6 +4,8 @@ import { Position } from '../components/position';
 import { Velocity } from '../components/velocity';
 import { Collider } from '../components/collider';
 import { Health } from '../components/health';
+import { Bullet } from '../components/bullet';
+import { Trigger } from '../components/trigger';
 
 export class CollisionSystem extends System {
     constructor(private world: World) {
@@ -45,6 +47,44 @@ export class CollisionSystem extends System {
                     if (this.boxIntersect(boxA, boxB)) {
                         colliderA.isOnCollide = true;
                         this.handleCollision(entityA, entityB, posA, posB, colliderA, colliderB);
+                    }
+                }
+            }
+        }
+
+        const triggers = this.world.entities.filter(
+            e => e.getComponent(Trigger)
+        );
+
+        const bullets = triggers.filter(
+            e => e.getComponent(Bullet)
+        );
+
+        for (let i = 0; i < bullets.length; i++) {
+            const bulletEntity = bullets[i];
+            const bullet1Trigger = bulletEntity.getComponent(Trigger);
+            const bulletPosA = bulletEntity.getComponent(Position);
+            if(bullet1Trigger && bulletPosA){
+                const boxA = bullet1Trigger.getAABB(bulletPosA.x, bulletPosA.y);
+                for (let j = 0; j < triggers.length; j++) {
+                    const entityB = triggers[j];
+                    const colliderB = entityB.getComponent(Trigger);
+                    const posB = entityB.getComponent(Position);
+                    if (!posB || !colliderB) continue;
+                    
+                    const boxB = colliderB.getAABB(posB.x, posB.y);
+                    // Check if the two boxes intersect
+                    if (this.boxIntersect(boxA, boxB)) {
+                        const healthB = entityB.getComponent(Health);
+                        if(healthB){
+                            healthB.current -= 5; // Deal 5 damage to A
+                            this.world.entities = this.world.entities.filter(e => e !== bulletEntity);
+                            console.log(`Bullet Explode!`);
+                            if (healthB.current <= 0) {
+                                this.world.entities = this.world.entities.filter(e => e !== entityB);
+                                console.log(`Entity B died!`);
+                            }
+                        }
                     }
                 }
             }
