@@ -5,7 +5,7 @@ import { Velocity } from '../components/velocity';
 
 export class MovementSystem extends System {
 
-    readonly gravity:number = 30;
+    readonly gravity:number = 50;
 
     constructor(private world: World) {
         super();
@@ -23,6 +23,7 @@ export class MovementSystem extends System {
                 // Optional gravity
                 if (vel.gravity) {
                     vel.vy += this.gravity * delta;
+                    vel.vy = Math.min(50,vel.vy);
                 }
 
                 if(vel.bounce){

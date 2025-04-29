@@ -20,13 +20,14 @@ export class FiringSystem extends System {
             if (shooters.length > 0) {
                 const shooter = shooters[Math.floor(Math.random() * shooters.length)];
                 const pos = shooter.getComponent(Position);
+                const gun = shooter.getComponent(Gun);
 
-                if (pos) {
+                if (pos && gun) {
                     // Random velocity (spread shot for now)
                     const angle = Math.random() * Math.PI * 2;
                     const speed = 100;
                     
-                    this.world.addEntity(BulletEntity(pos.x, pos.y, Math.cos(angle) * speed, Math.sin(angle) * speed));
+                    this.world.addEntity(BulletEntity(pos.x + gun.offsetX, pos.y + gun.offsetY, Math.cos(angle) * speed, Math.sin(angle) * speed));
                 }
             }
 

@@ -6,6 +6,7 @@ import { Lifetime } from '../components/lifetime';
 import { SpriteRenderer } from '../components/spriteRenderer';
 import { Texture } from 'pixi.js';
 import { Collider } from '../components/collider';
+import { Trigger } from '../components/trigger';
 
 export function BulletEntity(xp:number,yp:number,xv:number,yv:number): Entity {
     const entity = new Entity();
@@ -17,6 +18,6 @@ export function BulletEntity(xp:number,yp:number,xv:number,yv:number): Entity {
     renderSprite.sprite.scale = 0.2;
     renderSprite.sprite.tint = 0x111111;
     entity.addComponent(renderSprite);
-    entity.addComponent(new Collider(8, 8, 0, 0, true)); // trigger-type collider
+    entity.addComponent(new Trigger(8, 8, 0, 0)); // trigger-type collider
     return entity;
 }

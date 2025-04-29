@@ -1,12 +1,15 @@
 import { Component } from "../base/component";
 
 export class Collider extends Component{
+
+    public isTrigger: boolean = false;
+    public isOnCollide: boolean = false;
+
     constructor(
         public width: number,
         public height: number,
         public offsetX: number = 0,
         public offsetY: number = 0,
-        public isTrigger: boolean = false // true = no physical response, only events
     ) {
         super();
     }

@@ -22,16 +22,16 @@ export class CollisionSystem extends System {
 
         for (let i = 0; i < movingEntities.length; i++) {
             const entityA = movingEntities[i];
+            
             const posA = entityA.getComponent(Position);
             const velA = entityA.getComponent(Velocity);
             const colliderA = entityA.getComponent(Collider);
-
             if (!posA || !velA || !colliderA) continue;
-
+            colliderA.isOnCollide = false;
             const boxA = colliderA.getAABB(posA.x, posA.y);
 
             // Check for collision with every other moving entity
-            for (let j = i + 1; j < colliders.length; j++) {
+            for (let j = 0; j < colliders.length; j++) {
                 const entityB = colliders[j];
                 if (entityB != entityA) {
                     const posB = entityB.getComponent(Position);
@@ -43,6 +43,7 @@ export class CollisionSystem extends System {
 
                     // Check if the two boxes intersect
                     if (this.boxIntersect(boxA, boxB)) {
+                        colliderA.isOnCollide = true;
                         this.handleCollision(entityA, entityB, posA, posB, colliderA, colliderB);
                     }
                 }
@@ -77,16 +78,16 @@ export class CollisionSystem extends System {
             if (overlapX < overlapY) {
                 // Push entityA out of entityB in the X direction
                 if (boxA.x < boxB.x) {
-                    posA.x = boxB.x - boxA.width; // Move left
+                    posA.x = boxB.x - boxA.width - colliderA.offsetX; // Move left
                 } else {
-                    posA.x = boxB.x + boxB.width; // Move right
+                    posA.x = boxB.x + boxB.width - colliderA.offsetX; // Move right
                 }
             } else {
                 // Push entityA out of entityB in the Y direction
                 if (boxA.y < boxB.y) {
-                    posA.y = boxB.y - boxA.height; // Move up
+                    posA.y = boxB.y - boxA.height - colliderA.offsetY; // Move up
                 } else {
-                    posA.y = boxB.y + boxB.height; // Move down
+                    posA.y = boxB.y + boxB.height - colliderA.offsetY; // Move down
                 }
             }
         }

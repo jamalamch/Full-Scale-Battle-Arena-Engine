@@ -1,11 +1,11 @@
 import { AnimatedSprite, Assets, Texture } from 'pixi.js';
-import { SpriteRenderer } from './spriteRenderer';
+import { SpriteRenderer ,SpriteRendererOptions } from './spriteRenderer';
 
 export class SpritesAnimationRenderer extends SpriteRenderer {
 
     spriteAnimation: AnimatedSprite;
 
-    constructor(textures: Texture[], public options?: { anchor?: number , scale?: number}) {
+    constructor(textures: Texture[], public options?: SpriteRendererOptions) {
         super(null,options);
         // Animated Sprite
         this.spriteAnimation = new AnimatedSprite(textures);

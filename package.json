@@ -1,5 +1,5 @@
 {
-  "name": "Sticker",
+  "name": "BattleArenaEngine",
   "version": "1.0.0",
   "main": "./src/mainGame.ts",
   "scripts": {

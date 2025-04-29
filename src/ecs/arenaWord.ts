@@ -13,6 +13,8 @@ import { Collider } from "./components/collider";
 import { Position } from "./components/position";
 import { CollisionSystem } from "./systems/collisionSystem";
 import { createEnemyEntity } from "./entities/enemyEntity";
+import { PlayerControlled } from "./components/playerControlled";
+import { PlayerControlSystem } from "./systems/playerControlSystem";
 
 export default class ArenaWord extends World {
 
@@ -49,7 +51,6 @@ export default class ArenaWord extends World {
                 colliderData.w* mapScale,
                 -colliderData.z* mapScale/2,
                 -colliderData.w* mapScale/2,
-                false
             ));
         
             // Optional: add a debug sprite or invisible sprite renderer
@@ -63,6 +64,7 @@ export default class ArenaWord extends World {
         this.addSystem(new BulletSystem(this));
         this.addSystem(new FiringSystem(this));
         this.addSystem(new CollisionSystem(this));
+        this.addSystem(new PlayerControlSystem(this));
 
         // Create some dummy entities
         for (let i = 0; i < 10; i++) {
